@@ -1,0 +1,47 @@
+﻿@model VIMOD.Domain.Models.Carousel
+
+@{
+    ViewData["Title"] = "Detalles del Carrusel";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-info text-white">
+            <h3>Detalles del Elemento</h3>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Título:</dt>
+                <dd class="col-sm-9">@Model.Titulo</dd>
+
+                <dt class="col-sm-3">Descripción:</dt>
+                <dd class="col-sm-9">@Model.Descripcion</dd>
+
+                <dt class="col-sm-3">Orden:</dt>
+                <dd class="col-sm-9">@Model.Orden</dd>
+
+                <dt class="col-sm-3">Estado:</dt>
+                <dd class="col-sm-9">
+                    @if (Model.Activo)
+                    {
+                        <span class="badge bg-success">Activo</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">Inactivo</span>
+                    }
+                </dd>
+
+                <dt class="col-sm-3">Imagen:</dt>
+                <dd class="col-sm-9">
+                    <img src="@Model.ImagenUrl"
+                         class="img-fluid rounded"
+                         style="max-width: 300px;">
+                </dd>
+            </dl>
+            <div class="text-center">
+                <a asp-action="Index" class="btn btn-outline-secondary">Volver</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,170 @@
+﻿@model VIMOD.Domain.Models.ContenidoModulo
+@{
+    ViewData["Title"] = "Detalles del Contenido";
+}
+
+<div class="card shadow-lg">
+    <div class="card-header bg-info text-white">
+        <h3 class="mb-0">
+            <i class="fas fa-file-alt me-2"></i>@ViewData["Title"]
+        </h3>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-8">
+                <dl class="row">
+                    <dt class="col-sm-4">Título:</dt>
+                    <dd class="col-sm-8">@Model.Titulo</dd>
+
+                    <dt class="col-sm-4">Tipo de contenido:</dt>
+                    <dd class="col-sm-8">
+                        <span class="badge bg-primary">@Model.Tipo</span>
+                    </dd>
+
+                    <dt class="col-sm-4">URL del contenido:</dt>
+                    <dd class="col-sm-8">
+                        <a href="@Model.URLContenido" target="_blank" class="text-break">
+                            @Model.URLContenido
+                        </a>
+                    </dd>
+
+                    <dt class="col-sm-4">Orden de visualización:</dt>
+                    <dd class="col-sm-8">@Model.Orden</dd>
+
+                    <dt class="col-sm-4">Módulo perteneciente:</dt>
+                    <dd class="col-sm-8">
+                        @if (Model.ModuloCurso != null)
+                        {
+                            <span>@Model.ModuloCurso.Titulo</span>
+                        }
+                        else
+                        {
+                            <span class="text-muted">No asignado</span>
+                        }
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="col-md-4">
+                @if (!string.IsNullOrEmpty(Model.URLContenido))
+                {
+                    <div class="card mb-3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title mb-3">Vista previa</h5>
+                            @{
+                                var isYoutube = Model.URLContenido.Contains("youtube.com") || Model.URLContenido.Contains("youtu.be");
+                                var embedUrl = "";
+
+                                if (isYoutube)
+                                {
+                                    var videoId = "";
+                                    var uri = new Uri(Model.URLContenido);
+
+                                    if (uri.Host == "www.youtube.com" && uri.AbsolutePath == "/watch")
+                                    {
+                                        videoId = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query)["v"];
+                                    }
+                                    else if (uri.Host == "youtu.be")
+                                    {
+                                        videoId = uri.AbsolutePath.Trim('/');
+                                    }
+
+                                    if (!string.IsNullOrEmpty(videoId))
+                                    {
+                                        embedUrl = $"https://www.youtube.com/embed/{videoId}?rel=0";
+                                    }
+                                }
+
+                                if (!string.IsNullOrEmpty(embedUrl))
+                                {
+                                    <div class="ratio ratio-16x9">
+                                        <iframe src="@embedUrl"
+                                                class="rounded"
+                                                allowfullscreen
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                onerror="handleVideoError(this)"></iframe>
+                                    </div>
+                                }
+                                else
+                                {
+                                    switch (Model.Tipo?.ToLower())
+                                    {
+                                        case "documento":
+                                            <a href="@Model.URLContenido"
+                                               class="btn btn-outline-primary"
+                                               target="_blank">
+                                                <i class="fas fa-file-pdf me-2"></i>Abrir documento
+                                            </a>
+                                            break;
+
+                                        case "video":
+                                            <div class="alert alert-warning">
+                                                Formato de video no soportado
+                                            </div>
+                                            break;
+
+                                        default:
+                                            <i class="fas fa-link fa-3x text-muted"></i>
+                                            <p class="mt-2">Enlace externo</p>
+                                            break;
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="mt-4 d-flex justify-content-between">
+            <a asp-action="Edit" asp-route-id="@Model.IdContenido"
+               class="btn btn-warning px-4">
+                <i class="fas fa-edit me-2"></i>Editar
+            </a>
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                <i class="fas fa-arrow-left me-2"></i>Volver al listado
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function handleVideoError(iframe) {
+        const errorContent = `
+            <div class="alert alert-warning py-2">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-exclamation-triangle me-2 fs-4"></i>
+                    <div>
+                        <p class="mb-1">Error al cargar el video</p>
+                        <ul class="mb-0 ps-3">
+                            <li>Verifica tu conexión a internet</li>
+                            <li>El video podría haber sido eliminado</li>
+                            <li>Revisa que la URL sea correcta</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        `;
+        iframe.parentElement.innerHTML = errorContent;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Forzar HTTPS y limpiar parámetros de tracking
+        document.querySelectorAll('iframe[src*="youtube"]').forEach(iframe => {
+            let src = iframe.src;
+
+            // Eliminar parámetros de tracking
+            src = src.split('&')[0];
+
+            // Forzar HTTPS
+            src = src.replace('http:', 'https:');
+
+            // Agregar parámetros de privacidad
+            if (!src.includes('rel=0')) {
+                src += '&rel=0';
+            }
+
+            iframe.src = src;
+        });
+    });
+</script>

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<VIMOD.Domain.Models.Carousel>
+
+@{
+    ViewData["Title"] = "Gestiónes de Carrusel";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Gestión de Carrusel</h2>
+
+    <a asp-action="Create" class="btn btn-success mb-4">Agregar Imagen</a>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="@item.ImagenUrl" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Titulo</h5>
+                        <p class="card-text text-muted">@item.Descripcion</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary btn-sm">Editar</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Eliminar</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<VIMOD.Domain.Models.Certificado>
+
+@{
+    ViewData["Title"] = "Lista de Certificados";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Usuario</th>
+            <th>Curso</th>
+            <th>Fecha Emisión</th>
+            <th>Código Único</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Usuario.Nombre @item.Usuario.Apellido</td>
+                <td>@item.Curso.Nombre</td>
+                <td>@item.FechaEmision.ToString("dd/MM/yyyy")</td>
+                <td>@item.CodigoUnico</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.IdCertificado" class="btn btn-info btn-sm">Ver</a>
+                    <form asp-action="Reemitir" asp-route-id="@item.IdCertificado" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-warning btn-sm" onclick="return confirm('¿Seguro que deseas reemitir el certificado?')">Reemitir</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Validar" class="btn btn-primary">Validar un Certificado</a>

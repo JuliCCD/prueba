@@ -1,0 +1,19 @@
+﻿@model VIMOD.Domain.Models.Certificado
+
+@{
+    ViewData["Title"] = "Detalles del Certificado";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Certificado de: @Model.Usuario.Nombre @Model.Usuario.Apellido</h4>
+        <p class="card-text"><strong>Curso:</strong> @Model.Curso.Nombre</p>
+        <p class="card-text"><strong>Fecha de Emisión:</strong> @Model.FechaEmision.ToString("dd/MM/yyyy")</p>
+        <p class="card-text"><strong>Código Único:</strong> @Model.CodigoUnico</p>
+        <p class="card-text"><strong>Ruta del Archivo:</strong> @Model.RutaArchivo</p>
+    </div>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary mt-3">Volver a la Lista</a>

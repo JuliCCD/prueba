@@ -1,0 +1,25 @@
+﻿@model VIMOD.Domain.Models.Categoria
+@{
+    ViewData["Title"] = "Detalles de Categoría";
+}
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-info text-white">
+            <h4 class="mb-0">Detalles de la Categoría</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Nombre)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(m => m.Nombre)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Descripcion)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(m => m.Descripcion)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Estado)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(m => m.Estado)</dd>
+            </dl>
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">Editar</a>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Volver</a>
+        </div>
+    </div>
+</div>

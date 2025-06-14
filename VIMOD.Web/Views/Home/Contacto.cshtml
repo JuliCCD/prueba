@@ -1,0 +1,208 @@
+﻿@{
+    ViewData["Title"] = "Contacto";
+}
+<style>
+    .form-contacto {
+        max-width: 400px;
+        margin: 2em auto;
+        padding: 2em 2em 1.5em 2em;
+        background: #f8f9fa;
+        border-radius: 18px;
+        box-shadow: 0 8px 32px 0 rgba(40,167,69,0.06), 0 2px 4px 0 rgba(0,0,0,0.04);
+        position: relative;
+        animation: fadeInUp 1s;
+    }
+    @@keyframes fadeInUp {
+        from
+
+    {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    }
+
+    .form-contacto label {
+        display: block;
+        margin-bottom: 0.3em;
+        font-weight: 600;
+        color: #198754;
+        letter-spacing: 0.02em;
+    }
+
+    .form-contacto input,
+    .form-contacto textarea {
+        width: 100%;
+        padding: 0.7em;
+        margin-bottom: 1em;
+        border-radius: 8px;
+        border: 1.5px solid #dee2e6;
+        font-size: 1em;
+        background: #fff;
+        transition: border-color 0.2s, box-shadow 0.2s;
+        box-shadow: 0 1px 2px 0 rgba(25,135,84,0.04);
+    }
+
+        .form-contacto input:focus,
+        .form-contacto textarea:focus {
+            outline: none;
+            border-color: #198754;
+            box-shadow: 0 0 0 2px #b7eed3;
+        }
+
+    .form-contacto button {
+        width: 100%;
+        background: linear-gradient(90deg, #25d366 0%, #198754 100%);
+        color: #fff;
+        border: none;
+        padding: 0.8em 0;
+        border-radius: 8px;
+        font-size: 1.08em;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0 2px 8px 0 rgba(25,135,84,0.10);
+        transition: background 0.2s, transform 0.15s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;
+        letter-spacing: 0.03em;
+    }
+
+        .form-contacto button:active {
+            transform: scale(0.97);
+        }
+
+        .form-contacto button.sending {
+            pointer-events: none;
+            opacity: 0.7;
+        }
+
+    #confirmacion {
+        display: none;
+        color: #198754;
+        background: #e6fff2;
+        border: 1.5px solid #b7eed3;
+        border-radius: 8px;
+        padding: 1em 1em 1em 3.2em;
+        position: relative;
+        font-size: 1.1em;
+        margin-top: 1.2em;
+        font-weight: 600;
+        box-shadow: 0 1px 6px 0 rgba(25,135,84,0.04);
+        animation: popIn 0.6s;
+    }
+
+        #confirmacion:before {
+            content: '✔';
+            position: absolute;
+            left: 1em;
+            top: 1em;
+            font-size: 1.5em;
+            color: #25d366;
+            animation: scaleUp 0.3s;
+        }
+
+    @@keyframes popIn {
+        from
+
+    {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    }
+
+    @@keyframes scaleUp {
+        from
+
+    {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+
+    }</style>
+
+<h2 style="text-align:center; color:#198754;">Contáctanos por WhatsApp</h2>
+<form class="form-contacto" id="formContacto" autocomplete="off">
+    <label for="nombre">Nombre</label>
+    <input id="nombre" name="nombre" required />
+
+    <label for="correo">Correo</label>
+    <input id="correo" name="correo" type="email" required />
+
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+    <button type="submit" id="btnEnviar">
+        <svg height="22" viewBox="0 0 32 32" width="22" style="vertical-align:middle">
+            <circle cx="16" cy="16" r="16" fill="#25d366" />
+            <path fill="#fff" d="M23.51 8.49a7.49 7.49 0 00-12.02 8.33l-1.01 3.71a1.02 1.02 0 001.24 1.24l3.71-1.01A7.49 7.49 0 0023.5 8.5zm-7.04 7.04a1 1 0 01-.7-1.7 1 1 0 011.42 0l1.13 1.13 2.12-2.13a1 1 0 111.42 1.42l-2.83 2.83a1 1 0 01-1.42 0l-1.13-1.13z" />
+        </svg>
+        Enviar mensaje
+    </button>
+</form>
+<div id="confirmacion">¡Mensaje enviado por WhatsApp!</div>
+
+<script>
+    // Animación y feedback JS moderno
+    document.getElementById("formContacto").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const btn = document.getElementById("btnEnviar");
+        btn.classList.add("sending");
+        btn.innerHTML = '<span style="animation:spin 1s linear infinite;display:inline-block;">⏳</span> Enviando...';
+
+        setTimeout(function () {
+            // Leer datos
+            var nombre = document.getElementById('nombre').value;
+            var correo = document.getElementById('correo').value;
+            var mensaje = document.getElementById('mensaje').value;
+
+            var texto = encodeURIComponent(
+                "Nuevo mensaje desde el sitio web:\n\n" +
+                "Nombre: " + nombre + "\n" +
+                "Correo: " + correo + "\n" +
+                "Mensaje: " + mensaje
+            );
+
+
+            var numeroSoporte = '51961352997';
+            var url = "https://wa.me/" + numeroSoporte + "?text=" + texto;
+
+            window.open(url, '_blank');
+
+            // Mostrar confirmación animada
+            var confirmacion = document.getElementById('confirmacion');
+            confirmacion.style.display = 'block';
+            confirmacion.style.animation = 'popIn 0.6s';
+
+            // Resetear form y botón
+            document.getElementById('formContacto').reset();
+            btn.classList.remove("sending");
+            btn.innerHTML = `<svg height="22" viewBox="0 0 32 32" width="22" style="vertical-align:middle">
+                <circle cx="16" cy="16" r="16" fill="#25d366"/>
+                <path fill="#fff" d="M23.51 8.49a7.49 7.49 0 00-12.02 8.33l-1.01 3.71a1.02 1.02 0 001.24 1.24l3.71-1.01A7.49 7.49 0 0023.5 8.5zm-7.04 7.04a1 1 0 01-.7-1.7 1 1 0 011.42 0l1.13 1.13 2.12-2.13a1 1 0 111.42 1.42l-2.83 2.83a1 1 0 01-1.42 0l-1.13-1.13z"/>
+            </svg> Enviar mensaje`;
+
+            // Ocultar confirmación después de 3 segundos
+            setTimeout(function () {
+                confirmacion.style.display = 'none';
+            }, 3000);
+
+        }, 900);
+    });
+</script>

@@ -1,0 +1,62 @@
+﻿<!-- Index.cshtml corregido -->
+@model IEnumerable<VIMOD.Domain.Models.ContenidoModulo>
+@{
+    ViewData["Title"] = "Contenidos de Módulos";
+}
+
+<div class="card shadow-lg">
+    <div class="card-header bg-primary text-white">
+        <div class="d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">@ViewData["Title"]</h3>
+            <a asp-action="Create" class="btn btn-light">
+                <i class="fas fa-plus-circle me-2"></i>Nuevo Contenido
+            </a>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Título</th>
+                        <th>Tipo</th>
+                        <th>URL</th>
+                        <th>Orden</th>
+                        <th>Módulo</th>
+                        <th class="text-end">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Titulo</td>
+                            <td><span class="badge bg-info">@item.Tipo</span></td>
+                            <td class="text-truncate" style="max-width: 200px;">
+                                <a href="@item.URLContenido" target="_blank">Ver contenido</a>
+                            </td>
+                            <td>@item.Orden</td>
+                            <td>@item.ModuloCurso?.Titulo</td>
+                            <td class="text-end">
+                                <div class="btn-group" role="group">
+                                    <a asp-action="Edit" asp-route-id="@item.IdContenido"
+                                       class="btn btn-sm btn-outline-primary" title="Editar">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                    <a asp-action="Details" asp-route-id="@item.IdContenido"
+                                       class="btn btn-sm btn-outline-info" title="Detalles">
+                                        <i class="fas fa-eye"></i>
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@item.IdContenido"
+                                       class="btn btn-sm btn-outline-danger" title="Eliminar">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

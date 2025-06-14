@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Pagar con Yape";
+}
+
+<div class="container d-flex justify-content-center align-items-center mt-5">
+    <div class="card p-4 shadow-lg" style="max-width: 500px; width: 100%; border-radius: 16px;">
+        <div class="text-center">
+            <!-- Logo de Yape -->
+            <img src="https://www.chullitohost.com/assets/img/pagos/pago-min-01.png" alt="Logo Yape" class="mb-3" style="width: 360px;">
+
+            <h3 class="mb-3 text-uppercase fw-bold">Pagar con Yape</h3>
+
+            <div class="mb-3">
+                <p class="mb-1">Curso:</p>
+                <h5 class="fw-bold">@ViewBag.NombreCurso</h5>
+            </div>
+
+            <div class="mb-3">
+                <p class="mb-1">Monto a pagar:</p>
+                <h4 class="text-success fw-bold">S/. @ViewBag.Monto</h4>
+            </div>
+
+            <!-- QR del curso -->
+            <div class="mb-4">
+                <img src="/QR.jpeg" alt="Código QR Yape" class="img-fluid" style="max-height: 300px;">
+                <p class="mt-3 text-muted">Escanea este código QR con tu app Yape para realizar el pago.</p>
+            </div>
+
+            <!-- Botón de confirmación -->
+            <form asp-action="ConfirmarPagoYape" method="post">
+                <input type="hidden" name="nombreCurso" value="@ViewBag.NombreCurso" />
+                <button type="submit" class="btn btn-success btn-lg w-100 rounded-pill">
+                    ✅ YA HE PAGADO
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

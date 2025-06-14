@@ -1,0 +1,84 @@
+﻿@model List<VIMOD.Domain.Models.Curso>
+
+@{
+    ViewData["Title"] = "Tienda - Cursos Disponibles";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-5">CURSOS DISPONIBLES</h2>
+    <div class="row g-4">
+        @foreach (var curso in Model)
+        {
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="@curso.URLImagen" class="card-img-top" alt="@curso.Nombre" style="height: 200px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@curso.Nombre</h5>
+                        <p class="card-text flex-grow-1">@curso.Descripcion</p>
+                        <p class="card-text"><strong>Precio:</strong> @curso.Precio.ToString("C")</p>
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <button class="btn btn-dark mt-auto" onclick="redirigirAFinalizarPedido(@curso.IdCurso, @curso.Precio)">
+                                COMPRAR
+                            </button>
+                        }
+                        else
+                        {
+                            <button class="btn btn-dark mt-auto" onclick="mostrarModalRegistro()">
+                                COMPRAR
+                            </button>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- MODAL DE REGISTRO SOLO SI NO ESTÁ AUTENTICADO -->
+<div class="modal fade" id="modalRegistro" tabindex="-1" aria-labelledby="modalRegistroLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 shadow">
+            <div class="modal-header border-bottom-0">
+                <h5 class="modal-title fw-bold" id="modalRegistroLabel">ATENCIÓN</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+                <p>Debe registrarse primero para comprar un curso.</p>
+            </div>
+            <div class="modal-footer border-top-0 justify-content-center">
+                <a href="/Identity/Account/Register" class="btn btn-primary px-4">REGISTRARME</a>
+                <button type="button" class="btn btn-secondary px-4" data-bs-dismiss="modal">CANCELAR</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card-title {
+        font-weight: bold;
+    }
+
+    .btn-dark {
+        background-color: #343a40;
+        border: none;
+    }
+
+        .btn-dark:hover {
+            background-color: #23272b;
+        }
+</style>
+
+@section Scripts {
+    <script>
+        function mostrarModalRegistro() {
+            var modal = new bootstrap.Modal(document.getElementById('modalRegistro'));
+            modal.show();
+        }
+
+        function redirigirAFinalizarPedido(idCurso, precio) {
+            window.location.href = `/Tienda/FinalizarPedido?idCurso=${idCurso}&precio=${precio}&metodo=Yape`;
+        }
+    </script>
+}

@@ -1,0 +1,88 @@
+﻿@model VIMOD.Domain.ViewModels.CursoViewModel
+
+@{
+    ViewData["Title"] = "Editar Curso";
+}
+
+<h2 class="mb-4 text-primary fw-bold"><i class="fas fa-edit me-2"></i>Editar Curso</h2>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-lg rounded-4">
+            <div class="card-body">
+                <form asp-action="Edit" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                    <input type="hidden" asp-for="IdCurso" />
+
+                    <div class="mb-3">
+                        <label asp-for="Nombre" class="form-label text-dark fw-semibold"><i class="fas fa-book me-2"></i>Nombre del Curso</label>
+                        <input asp-for="Nombre" class="form-control" placeholder="Escriba aquí" />
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Descripcion" class="form-label text-dark fw-semibold"><i class="fas fa-align-left me-2"></i>Descripción</label>
+                        <input asp-for="Descripcion" class="form-control" placeholder="Escriba aquí" />
+                        <span asp-validation-for="Descripcion" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Precio" class="form-label text-dark fw-semibold"><i class="fas fa-dollar-sign me-2"></i>Precio</label>
+                        <input asp-for="Precio" class="form-control" type="number" step="0.01" />
+                        <span asp-validation-for="Precio" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="PrecioDescuento" class="form-label text-dark fw-semibold"><i class="fas fa-tags me-2"></i>Descuento</label>
+                        <input asp-for="PrecioDescuento" class="form-control" type="number" step="0.01" />
+                        <span asp-validation-for="PrecioDescuento" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label text-dark fw-semibold"><i class="fas fa-image me-2"></i>Imagen actual</label>
+                        @if (ViewBag.ImagenActual != null)
+                        {
+                            <div class="mb-2">
+                                <img src="@ViewBag.ImagenActual" alt="Imagen actual" class="img-fluid rounded shadow-sm" style="max-height: 200px;" />
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="text-muted">No se ha cargado ninguna imagen.</div>
+                        }
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="ImagenArchivo" class="form-label text-dark fw-semibold"><i class="fas fa-upload me-2"></i>Subir nueva imagen (opcional)</label>
+                        <input asp-for="ImagenArchivo" type="file" class="form-control" />
+                        <span asp-validation-for="ImagenArchivo" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="DocenteAsignado" class="form-label text-dark fw-semibold"><i class="fas fa-user-tie me-2"></i>Docente</label>
+                        <input asp-for="DocenteAsignado" class="form-control" placeholder="Nombre del docente" />
+                        <span asp-validation-for="DocenteAsignado" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="IdCategoria" class="form-label text-dark fw-semibold"><i class="fas fa-layer-group me-2"></i>Categoría</label>
+                        <select asp-for="IdCategoria" class="form-select" asp-items="ViewBag.IdCategoria"></select>
+                        <span asp-validation-for="IdCategoria" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-grid gap-2 mt-4">
+                        <input type="submit" value="Guardar Cambios" class="btn btn-success btn-lg rounded-pill" />
+                        <a asp-action="Index" class="btn btn-outline-secondary rounded-pill">Cancelar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a2e0f1f9c8.js" crossorigin="anonymous"></script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

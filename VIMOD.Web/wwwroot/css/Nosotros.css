@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.section-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 20px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+}
+
+    .section-visual::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    .section-visual .content {
+        position: relative;
+        z-index: 2;
+        max-width: 900px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .section-visual h2 {
+        font-size: 3.5em;
+        margin-bottom: 20px;
+        font-weight: 800;
+    }
+
+    .section-visual p {
+        font-size: 1.4em;
+        line-height: 1.7;
+    }
+
+.split-section {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 600px;
+}
+
+    .split-section .text,
+    .split-section .image {
+        flex: 0 0 50%;
+        height: 100%;
+    }
+
+    .split-section .text {
+        padding: 80px 50px;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+        .split-section .text h2 {
+            font-size: 2.8em;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .split-section .text p {
+            font-size: 1.3em;
+            line-height: 1.6;
+        }
+
+    .split-section .image {
+        overflow: hidden;
+    }
+
+        .split-section .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+/* Imagen Misión */
+.image-mision img {
+    filter: brightness(0.95) contrast(1.1);
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Imagen Visión */
+.image-vision img {
+    filter: grayscale(0.1) saturate(1.2);
+    border-radius: 0 10px 10px 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.cta-section-img {
+    text-align: center;
+    padding: 110px 20px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: 65vh;
+}
+
+    .cta-section-img::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 1;
+    }
+
+    .cta-section-img .content {
+        position: relative;
+        z-index: 2;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .cta-section-img h2 {
+        font-size: 3em;
+        margin-bottom: 20px;
+        font-weight: 800;
+    }
+
+    .cta-section-img p {
+        font-size: 1.4em;
+        margin-bottom: 30px;
+    }
+
+    .cta-section-img a {
+        background: black;
+        color: white;
+        padding: 14px 32px;
+        font-size: 1.2em;
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: 600;
+        box-shadow: 0 4px 14px rgba(230, 57, 70, 0.3);
+        margin-top: 20px; /* <-- Espaciado añadido */
+        display: inline-block;
+    }
+
+.custom-btn-hover {
+    background-color: #000;
+    color: #fff;
+    padding: 14px 32px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border: 2px solid #000;
+}
+
+    .custom-btn-hover:hover {
+        background-color: #fff;
+        color: #000;
+        text-decoration: none;
+    }

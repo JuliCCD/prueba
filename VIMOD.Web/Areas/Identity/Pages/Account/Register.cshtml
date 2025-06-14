@@ -1,0 +1,160 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Registro de Usuario";
+}
+
+<div class="container-fluid bg-white min-vh-100">
+    <div class="row justify-content-center align-items-center min-vh-100">
+        <div class="col-12 col-lg-8 col-xl-6">
+            <div class="card shadow-lg border-0 rounded-4 overflow-hidden mx-auto" style="max-width: 800px;">
+                <div class="row g-0">
+                    <!-- Sección del Formulario -->
+                    <div class="col-md-12 p-5">
+                        <div class="text-center mb-5">
+                            <img src="~/img/logo.jpg" alt="Logo" style="height: 80px; margin-bottom: 2rem;">
+                            <h1 class="h2 fw-bold mb-3 text-dark">@ViewData["Title"]</h1>
+                            <p class="text-muted lead">Completa tus datos para crear tu cuenta</p>
+                        </div>
+
+                        <form id="registerForm" method="post" class="mx-auto" style="max-width: 600px;">
+                            <div asp-validation-summary="ModelOnly" class="alert alert-danger mb-4"></div>
+
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input asp-for="Input.Nombre" class="form-control border-secondary" 
+                                               style="height: 56px; border-radius: 12px;"
+                                               placeholder="Nombres">
+                                        <label asp-for="Input.Nombre" class="text-muted">Nombres</label>
+                                        <span asp-validation-for="Input.Nombre" class="text-danger small"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input asp-for="Input.Apellido" class="form-control border-secondary" 
+                                               style="height: 56px; border-radius: 12px;"
+                                               placeholder="Apellidos">
+                                        <label asp-for="Input.Apellido" class="text-muted">Apellidos</label>
+                                        <span asp-validation-for="Input.Apellido" class="text-danger small"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input asp-for="Input.Email" class="form-control border-secondary" 
+                                               style="height: 56px; border-radius: 12px;"
+                                               placeholder="correo@ejemplo.com">
+                                        <label asp-for="Input.Email" class="text-muted">Correo electrónico</label>
+                                        <span asp-validation-for="Input.Email" class="text-danger small"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input asp-for="Input.Direccion" class="form-control border-secondary" 
+                                               style="height: 56px; border-radius: 12px;"
+                                               placeholder="Dirección">
+                                        <label asp-for="Input.Direccion" class="text-muted">Dirección</label>
+                                        <span asp-validation-for="Input.Direccion" class="text-danger small"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input asp-for="Input.Telefono" class="form-control border-secondary" 
+                                               style="height: 56px; border-radius: 12px;"
+                                               placeholder="Teléfono">
+                                        <label asp-for="Input.Telefono" class="text-muted">Teléfono</label>
+                                        <span asp-validation-for="Input.Telefono" class="text-danger small"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input asp-for="Input.FechaDeNacimiento" type="date" 
+                                               class="form-control border-secondary" 
+                                               style="height: 56px; border-radius: 12px;">
+                                        <label asp-for="Input.FechaDeNacimiento" class="text-muted">Fecha de nacimiento</label>
+                                        <span asp-validation-for="Input.FechaDeNacimiento" class="text-danger small"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input asp-for="Input.Password" type="password" 
+                                               class="form-control border-secondary" 
+                                               style="height: 56px; border-radius: 12px;"
+                                               placeholder="Contraseña">
+                                        <label asp-for="Input.Password" class="text-muted">Contraseña</label>
+                                        <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input asp-for="Input.ConfirmPassword" type="password" 
+                                               class="form-control border-secondary" 
+                                               style="height: 56px; border-radius: 12px;"
+                                               placeholder="Confirmar contraseña">
+                                        <label asp-for="Input.ConfirmPassword" class="text-muted">Confirmar contraseña</label>
+                                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger small"></span>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 mt-4">
+                                    <button id="registerSubmit" type="submit" 
+                                            class="w-100 btn btn-dark btn-lg rounded-pill py-3 fw-semibold"
+                                            style="transition: all 0.3s ease;">
+                                        Crear Cuenta
+                                    </button>
+                                </div>
+
+                                <div class="col-12 text-center mt-4">
+                                    <p class="text-muted mb-0">¿Ya tienes cuenta? 
+                                        <a asp-page="./Login" 
+                                           class="text-primary text-decoration-none fw-semibold">
+                                            Inicia Sesión
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    
+    <script>
+        // Animaciones para inputs
+        document.querySelectorAll('.form-control').forEach(input => {
+            input.addEventListener('focus', function() {
+                this.style.borderColor = '#0d6efd';
+                this.style.boxShadow = '0 0 0 3px rgba(13, 110, 253, 0.25)';
+            });
+            
+            input.addEventListener('blur', function() {
+                this.style.borderColor = '#dee2e6';
+                this.style.boxShadow = 'none';
+            });
+        });
+
+        // Efecto hover para el botón
+        const btn = document.getElementById('registerSubmit');
+        btn.addEventListener('mouseover', () => {
+            btn.style.transform = 'translateY(-2px)';
+            btn.style.boxShadow = '0 5px 15px rgba(13, 110, 253, 0.3)';
+        });
+        
+        btn.addEventListener('mouseout', () => {
+            btn.style.transform = 'translateY(0)';
+            btn.style.boxShadow = 'none';
+        });
+    </script>
+}

@@ -1,0 +1,42 @@
+﻿@model VIMOD.Domain.Models.ModuloCurso
+@{
+    ViewData["Title"] = "Eliminar Módulo";
+}
+
+<div class="card shadow">
+    <div class="card-header bg-danger text-white">
+        <h4 class="mb-0">@ViewData["Title"]</h4>
+    </div>
+    <div class="card-body">
+        <div class="alert alert-warning">
+            <h5 class="alert-heading">¿Estás seguro de eliminar este módulo?</h5>
+            <p class="mb-0">Esta acción no se puede deshacer y eliminará permanentemente el registro.</p>
+        </div>
+
+        <dl class="row">
+            <dt class="col-sm-3">Título</dt>
+            <dd class="col-sm-9">@Model.Titulo</dd>
+
+            <dt class="col-sm-3">Descripción</dt>
+            <dd class="col-sm-9">@Model.Descripcion</dd>
+
+            <dt class="col-sm-3">Orden</dt>
+            <dd class="col-sm-9">@Model.Orden</dd>
+
+            <dt class="col-sm-3">Curso</dt>
+            <dd class="col-sm-9">@Model.Curso?.Nombre</dd>
+        </dl>
+
+        <form asp-action="DeleteConfirmed">
+            <input type="hidden" asp-for="IdModulo" />
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-danger px-4">
+                    <i class="fas fa-trash-alt me-2"></i>Confirmar Eliminación
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="fas fa-times me-2"></i>Cancelar
+                </a>
+            </div>
+        </form>
+    </div>
+</div>

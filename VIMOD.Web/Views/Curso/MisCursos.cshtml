@@ -1,0 +1,30 @@
+﻿@model IEnumerable<VIMOD.Domain.Models.Curso>
+
+@{
+    ViewData["Title"] = "Mis Cursos Comprados";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (Model.Any())
+{
+    <div class="row">
+        @foreach (var curso in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="@curso.URLImagen" class="card-img-top" alt="@curso.Nombre" style="height:200px;object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@curso.Nombre</h5>
+                        <p class="card-text">@curso.Descripcion?.Substring(0, Math.Min(100, curso.Descripcion.Length))...</p>
+                        <a href="#" class="btn btn-primary">Acceder al Curso</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No has comprado ningún curso aún.</p>
+}

@@ -1,0 +1,34 @@
+﻿@model VIMOD.Domain.Models.ModuloCurso
+@{
+    ViewData["Title"] = "Detalles del Módulo";
+}
+
+<div class="card shadow">
+    <div class="card-header bg-info text-white">
+        <h4 class="mb-0">@ViewData["Title"]</h4>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Título</dt>
+            <dd class="col-sm-9">@Model.Titulo</dd>
+
+            <dt class="col-sm-3">Descripción</dt>
+            <dd class="col-sm-9">@Model.Descripcion</dd>
+
+            <dt class="col-sm-3">Orden</dt>
+            <dd class="col-sm-9">@Model.Orden</dd>
+
+            <dt class="col-sm-3">Curso</dt>
+            <dd class="col-sm-9">@Model.Curso?.Nombre</dd>
+        </dl>
+
+        <div class="d-flex justify-content-end gap-2">
+            <a asp-action="Edit" asp-route-id="@Model.IdModulo" class="btn btn-warning">
+                <i class="fas fa-edit me-2"></i>Editar
+            </a>
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                <i class="fas fa-arrow-left me-2"></i>Volver
+            </a>
+        </div>
+    </div>
+</div>

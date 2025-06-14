@@ -1,0 +1,46 @@
+﻿<!-- Delete.cshtml -->
+@model VIMOD.Domain.Models.ContenidoModulo
+@{
+    ViewData["Title"] = "Eliminar Contenido";
+}
+
+<div class="card shadow-lg">
+    <div class="card-header bg-danger text-white">
+        <h3 class="mb-0"><i class="fas fa-exclamation-triangle me-2"></i>@ViewData["Title"]</h3>
+    </div>
+    <div class="card-body">
+        <div class="alert alert-warning">
+            <h5 class="alert-heading">¿Está seguro de eliminar este contenido?</h5>
+            <p class="mb-0">Esta acción es permanente y no se puede deshacer.</p>
+        </div>
+
+        <dl class="row">
+            <dt class="col-sm-3">Título</dt>
+            <dd class="col-sm-9">@Model.Titulo</dd>
+
+            <dt class="col-sm-3">Tipo</dt>
+            <dd class="col-sm-9"><span class="badge bg-info">@Model.Tipo</span></dd>
+
+            <dt class="col-sm-3">URL</dt>
+            <dd class="col-sm-9">@Model.URLContenido</dd>
+
+            <dt class="col-sm-3">Orden</dt>
+            <dd class="col-sm-9">@Model.Orden</dd>
+
+            <dt class="col-sm-3">Módulo</dt>
+            <dd class="col-sm-9">@Model.ModuloCurso?.Titulo</dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="IdContenido" />
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-danger px-4">
+                    <i class="fas fa-trash-alt me-2"></i>Confirmar
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="fas fa-times me-2"></i>Cancelar
+                </a>
+            </div>
+        </form>
+    </div>
+</div>

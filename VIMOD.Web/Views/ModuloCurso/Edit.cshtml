@@ -1,0 +1,87 @@
+﻿@model VIMOD.Domain.Models.ModuloCurso
+@{
+    ViewData["Title"] = "Editar Módulo";
+}
+
+<div class="card shadow-lg border-0">
+    <div class="card-header bg-warning-gradient">
+        <h3 class="card-title text-dark">
+            <i class="fas fa-edit me-2"></i>@ViewData["Title"]
+        </h3>
+    </div>
+    <div class="card-body p-4">
+        <form asp-action="Edit" method="post" class="needs-validation" novalidate>
+            <input type="hidden" asp-for="IdModulo" />
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input asp-for="Titulo" class="form-control form-control-lg" placeholder="Título" required />
+                        <label asp-for="Titulo" class="form-label"></label>
+                        <span asp-validation-for="Titulo" class="invalid-feedback"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input asp-for="Orden" type="number" class="form-control form-control-lg" placeholder="Orden" required />
+                        <label asp-for="Orden" class="form-label"></label>
+                        <span asp-validation-for="Orden" class="invalid-feedback"></span>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea asp-for="Descripcion" class="form-control form-control-lg"
+                                  placeholder="Descripción" style="height: 120px" required></textarea>
+                        <label asp-for="Descripcion" class="form-label"></label>
+                        <span asp-validation-for="Descripcion" class="invalid-feedback"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <select asp-for="IdCurso" class="form-select form-select-lg"
+                                asp-items="ViewBag.IdCurso" required>
+                            <option value="">Seleccionar Curso</option>
+                        </select>
+                        <label asp-for="IdCurso" class="form-label"></label>
+                        <span asp-validation-for="IdCurso" class="invalid-feedback"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between mt-5">
+                <button type="submit" class="btn btn-primary btn-lg px-5">
+                    <i class="fas fa-save me-2"></i>Guardar Cambios
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                    <i class="fas fa-times me-2"></i>Cancelar
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Inicializar validación
+        (() => {
+            'use strict'
+            const forms = document.querySelectorAll('.needs-validation')
+
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+}

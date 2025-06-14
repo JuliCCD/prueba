@@ -1,0 +1,20 @@
+﻿@model VIMOD.Domain.Models.Carousel
+
+@{
+    ViewData["Title"] = "Eliminar imagen del carrusel";
+}
+
+<h1>¿Estás seguro de eliminar esta imagen?</h1>
+
+<div class="mb-3">
+    <strong>@Model.Titulo</strong>
+</div>
+<div class="mb-3">
+    <img src="@Model.ImagenUrl" alt="@Model.Titulo" style="max-width: 200px;" />
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

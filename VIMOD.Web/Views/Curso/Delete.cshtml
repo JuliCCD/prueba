@@ -1,0 +1,43 @@
+﻿@model VIMOD.Domain.Models.Curso
+
+@{
+    ViewData["Title"] = "Eliminar Curso";
+}
+
+<h2 class="text-danger fw-bold mb-4"><i class="fas fa-trash-alt me-2"></i>Confirmar Eliminación</h2>
+
+<div class="card shadow-sm border-0 mb-4">
+    <div class="card-body">
+        <dl class="row text-dark">
+            <dt class="col-sm-3"><i class="fas fa-book me-2"></i>Nombre</dt>
+            <dd class="col-sm-9">@Model.Nombre</dd>
+
+            <dt class="col-sm-3"><i class="fas fa-align-left me-2"></i>Descripción</dt>
+            <dd class="col-sm-9">@Model.Descripcion</dd>
+
+            <dt class="col-sm-3"><i class="fas fa-dollar-sign me-2"></i>Precio</dt>
+            <dd class="col-sm-9">@Model.Precio</dd>
+
+            <dt class="col-sm-3"><i class="fas fa-tags me-2"></i>Descuento</dt>
+            <dd class="col-sm-9">@Model.PrecioDescuento</dd>
+
+            <dt class="col-sm-3"><i class="fas fa-user-tie me-2"></i>Docente</dt>
+            <dd class="col-sm-9">@Model.DocenteAsignado</dd>
+
+            <dt class="col-sm-3"><i class="fas fa-layer-group me-2"></i>Categoría</dt>
+            <dd class="col-sm-9">@Model.Categoria.Descripcion</dd>
+        </dl>
+
+        <form asp-action="Delete" class="mt-4">
+            <input type="hidden" asp-for="IdCurso" />
+            <div class="d-flex gap-3">
+                <input type="submit" value="Eliminar" class="btn btn-danger rounded-pill" />
+                <a asp-action="Index" class="btn btn-outline-secondary rounded-pill">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a2e0f1f9c8.js" crossorigin="anonymous"></script>
+}

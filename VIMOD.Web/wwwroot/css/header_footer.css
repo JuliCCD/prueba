@@ -1,0 +1,79 @@
+﻿
+/* Estilo para el header */
+
+.navbar-custom {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer-custom {
+    background-color: #000000;
+    padding: 20px 0;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
+}
+
+    .footer-custom .social-icons i {
+        font-size: 20px;
+        margin: 0 10px;
+        color: #ffffff;
+        transition: color 0.3s;
+    }
+
+        .footer-custom .social-icons i:hover {
+            color: #007bff;
+        }
+
+.search-box {
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+/* Estilo para el footer */
+
+.hover-text-white:hover {
+    color: white !important;
+    transition: color 0.3s ease;
+}
+
+.bg-dark {
+    background-color: #1a1a1a !important;
+}
+
+/* Estilo para el header */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+    .nav-link:hover {
+        color: #007bff;
+    }
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.input-group input {
+    border-radius: 50px;
+}
+
+.btn-search {
+    border-radius: 50px;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+}

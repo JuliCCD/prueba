@@ -1,0 +1,56 @@
+﻿@model IEnumerable<VIMOD.Domain.Models.Curso>
+
+@{
+    ViewData["Title"] = "Lista de Cursos";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">Lista de cursos</h2>
+        <a asp-action="Create" class="btn btn-success rounded-pill">
+            <i class="bi bi-plus-circle me-2"></i>Agregar curso
+        </a>
+    </div>
+
+<table class="table table-hover shadow-sm rounded-3 overflow-hidden">
+    <thead class="table-dark text-white">
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th>Descuento</th>
+            <th>Imagen</th>
+            <th>Docente</th>
+            <th>Categoría</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+        <tbody class="text-dark">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Nombre</td>
+                    <td>@item.Descripcion</td>
+                    <td>@item.Precio</td>
+                    <td>@item.PrecioDescuento</td>
+                    <td>
+                        <img src="@item.URLImagen" alt="Imagen del curso" width="100" height="80" style="object-fit: cover;" />
+                    </td>
+                    <td>@item.DocenteAsignado</td>
+                    <td>@item.Categoria.Descripcion</td>
+                    <td>
+                        <div class="d-flex gap-2">
+                            <a asp-action="Edit" asp-route-id="@item.IdCurso" class="btn btn-sm btn-outline-warning rounded-pill"><i class="fas fa-edit"></i></a>
+                            <a asp-action="Details" asp-route-id="@item.IdCurso" class="btn btn-sm btn-outline-info rounded-pill"><i class="fas fa-eye"></i></a>
+                            <a asp-action="Delete" asp-route-id="@item.IdCurso" class="btn btn-sm btn-outline-danger rounded-pill"><i class="fas fa-trash"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+</table>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a2e0f1f9c8.js" crossorigin="anonymous"></script>
+}

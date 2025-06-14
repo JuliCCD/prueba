@@ -1,0 +1,133 @@
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.deps.json
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.runtimeconfig.json
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.dll
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.pdb
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.AssemblyReference.cache
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfoInputs.cache
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfo.cs
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.CoreCompileInputs.cache
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.dll
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\refint\VIMOD.Utilities.dll
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
+D:\DISCO C\Descargas\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.deps.json
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.runtimeconfig.json
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.AssemblyReference.cache
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfoInputs.cache
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfo.cs
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\refint\VIMOD.Utilities.dll
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
+C:\Users\benja\Downloads\VIMOD\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.deps.json
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.runtimeconfig.json
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.AssemblyReference.cache
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfoInputs.cache
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfo.cs
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\refint\VIMOD.Utilities.dll
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.deps.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.runtimeconfig.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.AssemblyReference.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfoInputs.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfo.cs
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\refint\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 6\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.sourcelink.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.deps.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.runtimeconfig.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.AssemblyReference.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfoInputs.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfo.cs
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.sourcelink.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\refint\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 9\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.deps.json
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.runtimeconfig.json
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.dll
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.pdb
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.AssemblyReference.cache
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfoInputs.cache
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfo.cs
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.CoreCompileInputs.cache
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.sourcelink.json
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.dll
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\refint\VIMOD.Utilities.dll
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
+C:\proyecto\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll
+C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.sourcelink.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.deps.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.runtimeconfig.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.AssemblyReference.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfoInputs.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfo.cs
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.sourcelink.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\refint\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 10\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.deps.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.runtimeconfig.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.AssemblyReference.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfoInputs.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfo.cs
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.sourcelink.json
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\refint\VIMOD.Utilities.dll
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
+C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.deps.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.runtimeconfig.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.AssemblyReference.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfoInputs.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfo.cs
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.CoreCompileInputs.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.sourcelink.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\refint\VIMOD.Utilities.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll

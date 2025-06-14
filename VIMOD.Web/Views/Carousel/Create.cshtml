@@ -1,0 +1,49 @@
+﻿@model VIMOD.Domain.Models.Carousel
+
+@{
+    ViewData["Title"] = "Agregar imagen al carrusel";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">Agregar Imagen al Carrusel</h2>
+
+    <form asp-action="Create" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label asp-for="Titulo" class="form-label fw-semibold">Título</label>
+            <input asp-for="Titulo" class="form-control" placeholder="Ingrese el título de la imagen" />
+            <span asp-validation-for="Titulo" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Descripcion" class="form-label fw-semibold">Descripción</label>
+            <textarea asp-for="Descripcion" class="form-control" rows="3" placeholder="Descripción opcional"></textarea>
+            <span asp-validation-for="Descripcion" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Orden" class="form-label fw-semibold">Orden</label>
+            <input asp-for="Orden" type="number" class="form-control" />
+        </div>
+
+        <div class="form-check mb-3">
+            <input asp-for="Activo" type="checkbox" class="form-check-input" />
+            <label asp-for="Activo" class="form-check-label">Activo</label>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Imagen</label>
+            <input type="file" name="imagen" class="form-control" />
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

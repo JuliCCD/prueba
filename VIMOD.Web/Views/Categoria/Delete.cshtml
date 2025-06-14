@@ -1,0 +1,30 @@
+﻿@model VIMOD.Domain.Models.Categoria
+@{
+    ViewData["Title"] = "Eliminar Categoría";
+}
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-danger text-white">
+            <h4 class="mb-0">Eliminar Categoría</h4>
+        </div>
+        <div class="card-body">
+            <h5 class="text-danger">¿Está seguro que desea eliminar esta categoría?</h5>
+            <dl class="row mt-4">
+                <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Nombre)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(m => m.Nombre)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Descripcion)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(m => m.Descripcion)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Estado)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(m => m.Estado)</dd>
+            </dl>
+
+            <form asp-action="Delete" class="mt-3">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn btn-danger">Eliminar</button>
+                <a asp-action="Index" class="btn btn-secondary ms-2">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>

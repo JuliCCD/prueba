@@ -1,0 +1,760 @@
+﻿@{
+    ViewData["Title"] = "Cursos de Arquitectura Digital";
+}
+<header>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        .titulo-curso {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .titulo-programas {
+            font-size: 1.5rem;
+            color: #34495e;
+        }
+
+        .subtitulo {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+        }
+
+        .carousel-caption {
+            bottom: 15%;
+        }
+
+        .btn-enroll {
+            background-color: #e67e22;
+            color: white;
+            font-weight: bold;
+            border: none;
+        }
+
+            .btn-enroll:hover {
+                background-color: #cf711c;
+            }
+    </style>
+</header>
+
+<div class="container-fluid bg-white min-vh-100">
+    @if (TempData["RegistroExitoso"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show position-absolute top-0 start-50 translate-middle-x mt-4 w-75 z-3" role="alert">
+            @TempData["RegistroExitoso"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="container py-5 text-center">
+        <h1 class="titulo-curso display-4 text-dark mb-1">APRENDE</h1>
+        <div class="titulo-programas mb-3">
+            ARCHICAD &nbsp;–&nbsp; LUMION &nbsp;–&nbsp; PHOTOSHOP
+        </div>
+        <p class="subtitulo">
+            Domina las herramientas esenciales para crear proyectos de alto impacto con<br>
+            <strong class="text-dark">cursos prácticos, materiales exclusivos y certificaciones reconocidas.</strong>
+        </p>
+    </div>
+
+    <div id="cursoCarousel" class="carousel slide mb-5 shadow-lg rounded" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner rounded-3">
+            <div class="carousel-item active">
+                <img src="~/img/carousel/3-Hero-Relationship+of+Arch+&+Interior+Design+Blog-AD&V-Álvarez-Díaz+&+Villalón-Architecture+and+Interior+Design.png" class="d-block w-100" alt="Arquitectura moderna exterior" style="height:700px;object-fit:cover;">
+                <div class="carousel-caption bg-dark bg-opacity-50 p-3 rounded">
+                    <h5>Curso Archicad 📐</h5>
+                    <p>Modelado BIM para arquitectos.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/373965/pexels-photo-373965.jpeg" class="d-block w-100" alt="Diseño interior arquitectura" style="height:700px;object-fit:cover;">
+                <div class="carousel-caption bg-dark bg-opacity-50 p-3 rounded">
+                    <h5>Curso Lumion ✨</h5>
+                    <p>Renderizado realista en tiempo real.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="~/img/carousel/exterior-of-the-building-1-1024x682.jpg" class="d-block w-100" alt="Render arquitectónico" style="height:700px;object-fit:cover;">
+                <div class="carousel-caption bg-dark bg-opacity-50 p-3 rounded">
+                    <h5>Curso Photoshop 🎨</h5>
+                    <p>Postproducción para proyectos arquitectónicos.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#cursoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#cursoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+        <div class="carousel-indicators mt-3">
+            <button type="button" data-bs-target="#cursoCarousel" data-bs-slide-to="0" class="active rounded-circle mx-1" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#cursoCarousel" data-bs-slide-to="1" class="rounded-circle mx-1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#cursoCarousel" data-bs-slide-to="2" class="rounded-circle mx-1" aria-label="Slide 3"></button>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="text-center mb-5">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a asp-controller="Tienda" asp-action="CursosDisponibles"
+               class="btn btn-lg btn-dark rounded-pill px-5 py-3 fw-bold text-uppercase text-white">
+                EMPIEZA TU APRENDIZAJE HOY
+            </a>
+        }
+        else
+        {
+            <a href="/Identity/Account/Register"
+               class="btn btn-lg btn-dark rounded-pill px-5 py-3 fw-bold text-uppercase text-white">
+                EMPIEZA TU APRENDIZAJE HOY
+            </a>
+        }
+    </div>
+
+
+
+    <div class="certificaciones bg-light p-4 rounded-3 border border-2 border-dark">
+    <h4 class="text-uppercase mb-4 text-dark text-center">Certificación y Licenciamiento:</h4>
+    <div class="d-flex justify-content-center gap-5 flex-wrap align-items-center">
+            <div class="text-center">
+                <img src="/img/COLE.png"
+                     alt="Logo Colegio de Arquitectos del Perú"
+                     class="img-fluid rounded-3"
+                     style="width: 180px; height: auto; border-radius: 12px !important;">
+            </div>
+            <div class="text-center">
+                <img src="/img/grafi.png"
+                     alt="Logo Graphisoft"
+                     class="img-fluid rounded-3"
+                     style="width: 160px; height: auto; border-radius: 10px !important;">
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="text-uppercase fw-bold display-5 mb-3">Tu Primer Paso al Nivel Profesional</h2>
+        <p class="text-secondary fs-5">Los cursos que están llevando a nuestras alumnos a otro nivel.</p>
+    </div>
+
+    <div class="text-center mb-3">
+        <a href="@Url.Action("Cursos", "Tienda")"
+           class="btn btn-dark rounded-pill px-4 py-2 fw-semibold text-uppercase text-white"
+           style="letter-spacing: 1.2px;">
+            Explora nuestros cursos
+        </a>
+    </div>
+
+
+</div>
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="text-uppercase fw-bold display-5 mb-3">Potencia tus Habilidades</h2>
+        <p class="text-secondary fs-5">Nuestros cursos están diseñados para llevarte al siguiente nivel.</p>
+    </div>
+
+    <h3 class="text-uppercase fw-bold mb-4 text-center">Explora nuestros Cursos</h3>
+
+    <div class="row g-4">
+        <!-- Curso 1 - Photoshop -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card curso-card h-100 border-0 shadow">
+                <img src="/img/logocurso/PHOTO DESDE CERO.webp"
+                     class="card-img-top"
+                     alt="Curso de Photoshop"
+                     style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h4 class="fw-bold text-dark mb-3">Photoshop desde Cero</h4>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="bi bi-person-circle me-2 text-muted"></i>
+                        <small class="text-muted">Avg. Franko Valle</small>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge bg-success fs-6">$29</span>
+                        <a href="@Url.Action("CursosDisponibles", "Tienda")" class="btn btn-sm btn-dark text-white rounded-pill btn-detalles">Ver en tienda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Curso 2 - Arquitectura Digital -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card curso-card h-100 border-0 shadow">
+                <img src="/img/logocurso/arquitecturadigital.webp"
+                     class="card-img-top"
+                     alt="Arquitectura Digital"
+                     style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h4 class="fw-bold text-dark mb-3">Arquitectura Digital</h4>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="bi bi-person-circle me-2 text-muted"></i>
+                        <small class="text-muted">Avg. Franko Valle</small>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge bg-success fs-6">$115</span>
+                        <a href="@Url.Action("CursosDisponibles", "Tienda")" class="btn btn-sm btn-dark text-white rounded-pill btn-detalles">Ver en tienda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Curso 3 - Archicad 27 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card curso-card h-100 border-0 shadow">
+                <img src="/img/logocurso/archicad27.webp"
+                     class="card-img-top"
+                     alt="Archicad 27 Intermedio"
+                     style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h4 class="fw-bold text-dark mb-3">Archicad 27 Intermedio</h4>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="bi bi-person-circle me-2 text-muted"></i>
+                        <small class="text-muted">Avg. Franko Valle</small>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge bg-success fs-6">$75</span>
+                        <a href="@Url.Action("CursosDisponibles", "Tienda")" class="btn btn-sm btn-dark text-white rounded-pill btn-detalles">Ver en tienda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Curso 4 - Archicad 25 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card curso-card h-100 border-0 shadow">
+                <img src="/img/logocurso/archicad25.webp"
+                     class="card-img-top"
+                     alt="Archicad 25 Intermedio"
+                     style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h4 class="fw-bold text-dark mb-3">Archicad 25 Intermedio</h4>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="bi bi-person-circle me-2 text-muted"></i>
+                        <small class="text-muted">Avg. Franko Valle</small>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge bg-success fs-6">$60</span>
+                        <a href="@Url.Action("CursosDisponibles", "Tienda")" class="btn btn-sm btn-dark text-white rounded-pill btn-detalles">Ver en tienda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold text-dark mb-3">¿Estás enfrentando estos desafíos?</h2>
+            <p class="lead">Los obstáculos más comunes en el aprendizaje profesional</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Tarjeta 1 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm bg-white rounded-3">
+                    <div class="card-body text-center p-4">
+                        <div class="icon-wrapper bg-primary-soft mb-4 mx-auto rounded-circle" style="width: 70px; height: 70px;">
+                            <i class="bi bi-signpost-split text-primary fs-2"></i>
+                        </div>
+                        <h4 class="fw-bold text-dark mb-3">Camino no definido</h4>
+                        <p class="text-muted">Cursos dispersos que no forman un programa coherente hacia tus metas</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm bg-white rounded-3">
+                    <div class="card-body text-center p-4">
+                        <div class="icon-wrapper bg-danger-soft mb-4 mx-auto rounded-circle" style="width: 70px; height: 70px;">
+                            <i class="bi bi-tools text-danger fs-2"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Equipo incompleto</h4>
+                        <p class="text-muted">Falta acceso a las herramientas profesionales que el mercado actual exige</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm bg-white rounded-3">
+                    <div class="card-body text-center p-4">
+                        <div class="icon-wrapper bg-warning-soft mb-4 mx-auto rounded-circle" style="width: 70px; height: 70px;">
+                            <i class="bi bi-bar-chart-line text-warning fs-2"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Brecha de habilidades</h4>
+                        <p class="text-muted">Lo que aprendes no coincide con lo que solicitan las empresas</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm bg-white rounded-3">
+                    <div class="card-body text-center p-4">
+                        <div class="icon-wrapper bg-success-soft mb-4 mx-auto rounded-circle" style="width: 70px; height: 70px;">
+                            <i class="bi bi-palette text-success fs-2"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Proyectos estancados</h4>
+                        <p class="text-muted">Ideas brillantes que no logras convertir en presentaciones impactantes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-5">
+            <a href="@Url.Action("FAQ", "Home")"
+               class="btn btn-dark rounded-pill px-4 py-2 fw-semibold text-uppercase text-white"
+               style="letter-spacing: 1.2px;">
+                Descubre la solución
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-4 fw-bold text-dark mb-3">La Ruta Clara para tu Crecimiento</h2>
+            <p class="lead text-muted">VIMOD no es solo una plataforma más. Es una experiencia de aprendizaje enfocada en resultados reales.</p>
+        </div>
+
+        <div class="row g-5">
+            <!-- Columna Izquierda -->
+            <div class="col-lg-6">
+                <div class="d-flex flex-column gap-4">
+                    <!-- Herramientas Actualizadas -->
+                    <div class="card border-0 shadow-sm hover-lift">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-square bg-primary-soft text-dark rounded-3 p-3">
+                                    <i class="bi bi-tools fs-2"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h4 fw-bold mb-2 text-dark">Herramientas Actualizadas</h3>
+                                    <p class="mb-0 text-muted">Domina Archicad, Lumion y Photoshop con un método diseñado para avances rápidos y claros.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recursos para tu Aprendizaje -->
+                    <div class="card border-0 shadow-sm hover-lift">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-square bg-success-soft text-dark rounded-3 p-3">
+                                    <i class="bi bi-journal-bookmark fs-2"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h4 fw-bold mb-2 text-dark">Recursos Exclusivos</h3>
+                                    <p class="mb-0 text-muted">Acceso a bibliotecas premium, guías prácticas y materiales didácticos actualizados.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certificaciones Oficiales -->
+                    <div class="card border-0 shadow-sm hover-lift">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-square bg-warning-soft text-dark rounded-3 p-3">
+                                    <i class="bi bi-award fs-2"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h4 fw-bold mb-2 text-dark">Certificaciones Reconocidas</h3>
+                                    <p class="mb-0 text-muted">Valida tus conocimientos con certificaciones que impulsarán tu carrera profesional.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Derecha -->
+            <div class="col-lg-6">
+                <div class="d-flex flex-column gap-4">
+                    <!-- Acompañamiento Personalizado -->
+                    <div class="card border-0 shadow-sm hover-lift">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-square bg-info-soft text-dark rounded-3 p-3">
+                                    <i class="bi bi-person-lines-fill fs-2"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h4 fw-bold mb-2 text-dark">Seguimiento Personalizado</h3>
+                                    <p class="mb-0 text-muted">Resuelve dudas en tiempo real con instructores expertos y soporte continuo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyectos Reales -->
+                    <div class="card border-0 shadow-sm hover-lift">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-square bg-danger-soft text-dark rounded-3 p-3">
+                                    <i class="bi bi-briefcase fs-2"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h4 fw-bold mb-2 text-dark">Proyectos Prácticos</h3>
+                                    <p class="mb-0 text-muted">Desarrolla casos reales que fortalecerán tu portafolio profesional.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Comunidad Exclusiva -->
+                    <div class="card border-0 shadow-sm hover-lift">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-square bg-purple-soft text-dark rounded-3 p-3">
+                                    <i class="bi bi-people-fill fs-2"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h4 fw-bold mb-2 text-dark">Red Profesional</h3>
+                                    <p class="mb-0 text-muted">Conéctate con una comunidad comprometida con el crecimiento colectivo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="text-uppercase fw-bold display-5 mb-3">Complementa tu Aprendizaje</h2>
+        <p class="text-secondary fs-5">Contamos con los mejores recursos para potenciar al máximo tu aprendizaje.</p>
+    </div>
+
+    <h3 class="text-uppercase fw-bold mb-4 text-center">Explora nuestros Recursos</h3>
+
+    <div class="row g-4">
+        <!-- Recurso 1 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card curso-card h-100 border-0 shadow">
+                <img src="/img/logorecurso/LOGO1.webp"
+                     class="card-img-top"
+                     alt="Migriliano Sketchup"
+                     style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h4 class="fw-bold text-dark mb-3">Migriliano Sketchup</h4>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="bi bi-collection me-2 text-muted"></i>
+                        <small class="text-muted">Paquete completo de objetos</small>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge bg-success fs-6">$9</span>
+                        <a href="#" class="btn btn-sm btn-dark text-white rounded-pill btn-detalles">Ver en tienda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recurso 2 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card curso-card h-100 border-0 shadow">
+                <img src="/img/logorecurso/LOGO2.webp"
+                     class="card-img-top"
+                     alt="Mobiliano 2D"
+                     style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h4 class="fw-bold text-dark mb-3">Mobiliano 2D para Archicad</h4>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="bi bi-layers me-2 text-muted"></i>
+                        <small class="text-muted">Biblioteca 2D profesional</small>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge bg-success fs-6">$9</span>
+                        <a href="#" class="btn btn-sm btn-dark text-white rounded-pill btn-detalles">Ver en tienda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recurso 3 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card curso-card h-100 border-0 shadow">
+                <img src="/img/logorecurso/LOGO3.webp"
+                     class="card-img-top"
+                     alt="Mobiliano 3D"
+                     style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h4 class="fw-bold text-dark mb-3">Mobiliano 3D para Archicad</h4>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="bi bi-box-seam me-2 text-muted"></i>
+                        <small class="text-muted">Modelos 3D premium</small>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge bg-success fs-6">$9</span>
+                        <a href="#" class="btn btn-sm btn-dark text-white rounded-pill btn-detalles">Ver en tienda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recurso 4 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card curso-card h-100 border-0 shadow">
+                <img src="/img/logorecurso/LOGO4.webp"
+                     class="card-img-top"
+                     alt="Actualización de Membresía"
+                     style="height: 200px; object-fit: cover;">
+                <div class="card-body">
+                    <h4 class="fw-bold text-dark mb-3">Actualización de Membresía</h4>
+                    <div class="d-flex align-items-center mb-2">
+                        <i class="bi bi-arrow-repeat me-2 text-muted"></i>
+                        <small class="text-muted">Acceso por 1 año</small>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-decoration-line-through text-muted me-2">$24</span>
+                            <span class="badge bg-danger fs-6">$12</span>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-dark text-white rounded-pill btn-detalles">Ver en tienda</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="py-5 bg-black text-white">
+    <div class="container">
+        <!-- Título principal -->
+        <div class="text-center mb-5">
+            <h2 class="display-4 fw-bold text-white mb-3">Tu Éxito es Nuestra Prioridad</h2>
+            <p class="lead mx-auto opacity-75" style="max-width: 700px;">
+                En VIMOD, cada proyecto arquitectónico cuenta una historia. Estamos aquí para asegurarnos
+                que la tuya se cuente con los recursos, la precisión y la excelencia que merece.
+            </p>
+        </div>
+
+        <div class="row g-5 align-items-center">
+            <!-- Bloque de Valores -->
+            <div class="col-lg-6">
+                <div class="pe-lg-4">
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="bg-soft-light p-3 rounded-circle me-4">
+                            <i class="bi bi-building fs-2 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="h4 fw-bold mb-2 text-white">Expertos en Formación Arquitectónica</h3>
+                            <p class="text-light opacity-75 mb-0">Más de 15 años transformando profesionales mediante metodologías BIM y diseño digital avanzado</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="bg-soft-light p-3 rounded-circle me-4">
+                            <i class="bi bi-globe fs-2 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="h4 fw-bold mb-2 text-white">Alcance Global, Atención Personal</h3>
+                            <p class="text-light opacity-75 mb-0">Más de 5,000 profesionales formados en 12 países, con soporte adaptado a tu huso horario</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-start">
+                        <div class="bg-soft-light p-3 rounded-circle me-4">
+                            <i class="bi bi-shield-check fs-2 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="h4 fw-bold mb-2 text-white">Compromiso de Excelencia</h3>
+                            <p class="text-light opacity-75 mb-0">Garantía de actualización permanente en software y técnicas de última generación</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloque de Acción -->
+            <div class="col-lg-6">
+                <div class="card border-0 shadow-lg p-4 bg-dark text-white rounded-3">
+                    <div class="card-body">
+                        <h3 class="h2 fw-bold mb-4">Construyamos Juntos tu Próximo Nivel</h3>
+                        <p class="mb-4 opacity-75">Selecciona el canal preferido para iniciar nuestra conversación profesional:</p>
+
+                        <div class="d-grid gap-3">
+                            <a href="tel:+51987654321" class="btn btn-light btn-lg rounded-pill d-flex align-items-center justify-content-center">
+                                <i class="bi bi-telephone-outbound-fill me-3"></i>
+                                +51 987 654 321
+                            </a>
+
+                            <a href="mailto:mentoria@vimod.com" class="btn btn-outline-light btn-lg rounded-pill d-flex align-items-center justify-content-center">
+                                <i class="bi bi-envelope-open-fill me-3"></i>
+                                Agenda una Sesión Estratégica
+                            </a>
+
+                            <div class="text-center mt-3">
+                                <p class="small mb-1">Conecta también por:</p>
+                                <div class="d-flex justify-content-center gap-2">
+                                    <a href="#" class="btn btn-icon btn-light rounded-circle">
+                                        <i class="bi bi-linkedin text-black"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-icon btn-light rounded-circle">
+                                        <i class="bi bi-whatsapp text-black"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-icon btn-light rounded-circle">
+                                        <i class="bi bi-messenger text-black"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* ---- FONDO Y CUERPO ---- */
+    body {
+        background-color: white !important;
+    }
+
+    .bg-soft-light {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    /* ---- BOTONES ---- */
+    .btn-icon {
+        width: 40px;
+        height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-dark {
+        transition: all 0.3s ease;
+        border: 2px solid #000;
+        letter-spacing: 1px;
+    }
+
+        .btn-dark:hover {
+            background-color: transparent !important;
+            color: #000 !important;
+            transform: scale(1.05);
+        }
+
+    /* ---- TITULOS Y TEXTOS ---- */
+    .titulo-curso {
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+
+    .titulo-programas {
+        font-weight: 800;
+        font-size: 2.5rem;
+        color: #c0392b; /* Rojo sobrio */
+        letter-spacing: 3px;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+
+    .subtitulo {
+        font-size: 1.25rem;
+        color: #555;
+    }
+
+    .lead strong {
+        letter-spacing: 0.05em;
+    }
+
+    h1 u {
+        text-decoration-thickness: 3px;
+        text-underline-offset: 8px;
+    }
+
+    /* ---- CARDS Y SOMBRAS ---- */
+    .card {
+        transition: transform 0.3s ease;
+        border-radius: 12px;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+    .shadow-hover {
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+        .shadow-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+    .card-img-top {
+        border-bottom: 3px solid #0d6efd;
+    }
+
+    /* ---- ICONOS EN CARDS ---- */
+    .icon-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover .icon-wrapper {
+        transform: scale(1.1);
+    }
+
+    /* ---- COLORES DE FONDOS SUAVES ---- */
+    .bg-primary-soft {
+        background: rgba(13, 110, 253, 0.1);
+    }
+
+    .bg-danger-soft {
+        background: rgba(220, 53, 69, 0.1);
+    }
+
+    .bg-warning-soft {
+        background: rgba(255, 193, 7, 0.1);
+    }
+
+    .bg-success-soft {
+        background: rgba(25, 135, 84, 0.1);
+    }
+
+    /* ---- BADGES ---- */
+    .badge {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+    }
+
+    /* ---- CERTIFICACIONES ---- */
+    .certificaciones {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    /* ---- CONTENEDOR GENERAL ---- */
+    .contenedor-centro {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .centrado-texto {
+        text-align: center;
+    }
+</style>

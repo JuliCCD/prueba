@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Validar Certificado";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Validar" method="post">
+    <div class="form-group">
+        <label for="codigoUnico">Código Único:</label>
+        <input type="text" name="codigoUnico" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-success mt-2">Validar</button>
+</form>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger mt-3">
+        @TempData["Error"]
+    </div>
+}

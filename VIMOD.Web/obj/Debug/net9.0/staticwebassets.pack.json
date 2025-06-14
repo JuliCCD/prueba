@@ -1,0 +1,453 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\VIMOD.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\VIMOD.Web.dhxtl06g90.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\QR.jpeg",
+      "PackagePath": "staticwebassets\\QR.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\css\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\css\\Nosotros.css",
+      "PackagePath": "staticwebassets\\css\\Nosotros.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\css\\header_footer.css",
+      "PackagePath": "staticwebassets\\css\\header_footer.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\Arqui.png",
+      "PackagePath": "staticwebassets\\img\\Arqui.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\COLE.png",
+      "PackagePath": "staticwebassets\\img\\COLE.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\LOGO2.webp",
+      "PackagePath": "staticwebassets\\img\\LOGO2.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\LOGOHOME.jpg",
+      "PackagePath": "staticwebassets\\img\\LOGOHOME.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\carousel\\08696ee8-9016-43ba-9b2f-2e92f7b2039b.webp",
+      "PackagePath": "staticwebassets\\img\\carousel\\08696ee8-9016-43ba-9b2f-2e92f7b2039b.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\carousel\\3-Hero-Relationship+of+Arch+&+Interior+Design+Blog-AD&V-Álvarez-Díaz+&+Villalón-Architecture+and+Interior+Design.png",
+      "PackagePath": "staticwebassets\\img\\carousel\\3-Hero-Relationship+of+Arch+&+Interior+Design+Blog-AD&V-Álvarez-Díaz+&+Villalón-Architecture+and+Interior+Design.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\carousel\\77ddb560-21d9-4099-b8ad-78eb326b3b58.webp",
+      "PackagePath": "staticwebassets\\img\\carousel\\77ddb560-21d9-4099-b8ad-78eb326b3b58.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\carousel\\89e798ae-514a-4bf0-88ea-6da332de00bf.webp",
+      "PackagePath": "staticwebassets\\img\\carousel\\89e798ae-514a-4bf0-88ea-6da332de00bf.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\carousel\\Rost-Architects---Orchid-Residence-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel\\Rost-Architects---Orchid-Residence-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\carousel\\architecture-villa-nuraya-01.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel\\architecture-villa-nuraya-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\carousel\\exterior-of-the-building-1-1024x682.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel\\exterior-of-the-building-1-1024x682.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\08f35128-b09c-4820-a2ea-09479db16609.jpg",
+      "PackagePath": "staticwebassets\\img\\cursos\\08f35128-b09c-4820-a2ea-09479db16609.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\0eada06f-49d5-47eb-b6e4-db7dcd2263aa.webp",
+      "PackagePath": "staticwebassets\\img\\cursos\\0eada06f-49d5-47eb-b6e4-db7dcd2263aa.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\117f0fb3-0707-4998-a30d-377b1a1e7dda.PNG",
+      "PackagePath": "staticwebassets\\img\\cursos\\117f0fb3-0707-4998-a30d-377b1a1e7dda.PNG"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\1c6e7859-4737-4b56-9fbe-c3d24c4030c7.png",
+      "PackagePath": "staticwebassets\\img\\cursos\\1c6e7859-4737-4b56-9fbe-c3d24c4030c7.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\24d650a1-52ed-4042-902c-312a7a01d0f4.png",
+      "PackagePath": "staticwebassets\\img\\cursos\\24d650a1-52ed-4042-902c-312a7a01d0f4.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\27a727b8-215c-4d42-980e-a00373dd3d80.webp",
+      "PackagePath": "staticwebassets\\img\\cursos\\27a727b8-215c-4d42-980e-a00373dd3d80.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\2e110fc2-d012-478c-842e-ff01393a94c9.png",
+      "PackagePath": "staticwebassets\\img\\cursos\\2e110fc2-d012-478c-842e-ff01393a94c9.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\45fdc638-985d-4450-889c-5bd8a59c30ba.webp",
+      "PackagePath": "staticwebassets\\img\\cursos\\45fdc638-985d-4450-889c-5bd8a59c30ba.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\527a8c3f-ac53-4eac-ad0a-fc6f5c2bebb8.png",
+      "PackagePath": "staticwebassets\\img\\cursos\\527a8c3f-ac53-4eac-ad0a-fc6f5c2bebb8.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\555d35b7-7fac-48da-ac65-dba62999dacc.webp",
+      "PackagePath": "staticwebassets\\img\\cursos\\555d35b7-7fac-48da-ac65-dba62999dacc.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\5cdbbbb9-78db-46f9-870d-f0017cfdd989.png",
+      "PackagePath": "staticwebassets\\img\\cursos\\5cdbbbb9-78db-46f9-870d-f0017cfdd989.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\65ece23b-06c3-469d-a2b6-258a595eade0.png",
+      "PackagePath": "staticwebassets\\img\\cursos\\65ece23b-06c3-469d-a2b6-258a595eade0.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\90986745-0b89-4111-a2f1-b2a4621c8197.webp",
+      "PackagePath": "staticwebassets\\img\\cursos\\90986745-0b89-4111-a2f1-b2a4621c8197.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\9ef097d0-2283-4177-ba8d-f87a68925207.jpg",
+      "PackagePath": "staticwebassets\\img\\cursos\\9ef097d0-2283-4177-ba8d-f87a68925207.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\b0593b9c-55f8-4353-a016-5c71fb9b30d5.webp",
+      "PackagePath": "staticwebassets\\img\\cursos\\b0593b9c-55f8-4353-a016-5c71fb9b30d5.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\b1777b04-028b-454e-8658-02aa03221fd2.png",
+      "PackagePath": "staticwebassets\\img\\cursos\\b1777b04-028b-454e-8658-02aa03221fd2.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\b37cad5c-b03e-4830-a67c-9224cbce7941.webp",
+      "PackagePath": "staticwebassets\\img\\cursos\\b37cad5c-b03e-4830-a67c-9224cbce7941.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\dc64b005-f99b-4acc-8879-4db8bb24e2f8.PNG",
+      "PackagePath": "staticwebassets\\img\\cursos\\dc64b005-f99b-4acc-8879-4db8bb24e2f8.PNG"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\cursos\\ff927b2b-cd7d-43ae-9326-98a093ddc120.png",
+      "PackagePath": "staticwebassets\\img\\cursos\\ff927b2b-cd7d-43ae-9326-98a093ddc120.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\grafi.png",
+      "PackagePath": "staticwebassets\\img\\grafi.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\home.jpg",
+      "PackagePath": "staticwebassets\\img\\home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\inicio.png",
+      "PackagePath": "staticwebassets\\img\\inicio.png"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\img\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\logocurso\\PHOTO DESDE CERO.webp",
+      "PackagePath": "staticwebassets\\img\\logocurso\\PHOTO DESDE CERO.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\logocurso\\archicad25.webp",
+      "PackagePath": "staticwebassets\\img\\logocurso\\archicad25.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\logocurso\\archicad27.webp",
+      "PackagePath": "staticwebassets\\img\\logocurso\\archicad27.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\logocurso\\arquitecturadigital.webp",
+      "PackagePath": "staticwebassets\\img\\logocurso\\arquitecturadigital.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\logorecurso\\LOGO1.webp",
+      "PackagePath": "staticwebassets\\img\\logorecurso\\LOGO1.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\logorecurso\\LOGO2.webp",
+      "PackagePath": "staticwebassets\\img\\logorecurso\\LOGO2.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\logorecurso\\LOGO3.webp",
+      "PackagePath": "staticwebassets\\img\\logorecurso\\LOGO3.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\img\\logorecurso\\LOGO4.webp",
+      "PackagePath": "staticwebassets\\img\\logorecurso\\LOGO4.webp"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\js\\JS_1.js",
+      "PackagePath": "staticwebassets\\js\\JS_1.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.VIMOD.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.VIMOD.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.VIMOD.Web.props",
+      "PackagePath": "build\\VIMOD.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.VIMOD.Web.props",
+      "PackagePath": "buildMultiTargeting\\VIMOD.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.VIMOD.Web.props",
+      "PackagePath": "buildTransitive\\VIMOD.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

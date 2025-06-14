@@ -1,0 +1,139 @@
+﻿@model VIMOD.Domain.ViewModels.PedidoViewModel
+
+@{
+    ViewData["Title"] = "Finalizar Pedido";
+}
+
+<style>
+    body {
+        background-size: cover;
+    }
+
+    .form-card {
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 1rem;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    }
+
+    label {
+        font-weight: 600;
+    }
+
+    .btn-confirmar {
+        background-color: #007bff;
+        border: none;
+    }
+
+        .btn-confirmar:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+            <div class="form-card p-5">
+                <h2 class="text-center text-dark fw-bold mb-4">
+                    🧾 Finalizar Pedido
+                </h2>
+
+                <form asp-action="GuardarPedido" method="post" class="row g-3 needs-validation" novalidate>
+                    <!-- Ocultos -->
+                    <input type="hidden" asp-for="TotalPedido" />
+                    <input type="hidden" asp-for="UserId" />
+
+                    <!-- Datos visibles -->
+                    <div class="col-md-6">
+                        <label asp-for="NombreUsuario" class="form-label">Nombre de Usuario</label>
+                        <input asp-for="NombreUsuario" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Email" class="form-label">Correo Electrónico</label>
+                        <input asp-for="Email" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="NombreCurso" class="form-label">Curso</label>
+                        <input asp-for="NombreCurso" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-12">
+                        <label asp-for="Direccion" class="form-label">Dirección</label>
+                        <input asp-for="Direccion" class="form-control" required />
+                        <div class="invalid-feedback">Por favor ingresa tu dirección.</div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="CodigoPostal" class="form-label">Código Postal</label>
+                        <input asp-for="CodigoPostal" class="form-control" required />
+                        <div class="invalid-feedback">Código postal requerido.</div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="Provincia" class="form-label">Provincia</label>
+                        <input asp-for="Provincia" class="form-control" required />
+                        <div class="invalid-feedback">Provincia requerida.</div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label asp-for="Localidad" class="form-label">Localidad</label>
+                        <input asp-for="Localidad" class="form-control" required />
+                        <div class="invalid-feedback">Localidad requerida.</div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="Telefono" class="form-label">Teléfono</label>
+                        <input asp-for="Telefono" class="form-control" required />
+                        <div class="invalid-feedback">Ingresa tu número telefónico.</div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label asp-for="FormaPago" class="form-label">Forma de Pago</label>
+                        <select asp-for="FormaPago" class="form-select" required>
+                            <option value="">-- Selecciona una opción --</option>
+                            <option value="Tarjeta">Tarjeta</option>
+                            <option value="Yape">Yape</option>
+                        </select>
+                        <div class="invalid-feedback">Selecciona una forma de pago.</div>
+                    </div>
+
+                    <div class="col-12 text-center mt-4">
+                        <button type="submit" class="btn btn-confirmar btn-lg px-5 shadow">
+                            <i class="bi bi-cart-check me-2"></i>Confirmar Pedido
+                        </button>
+                    </div>
+                </form>
+
+                <hr class="my-4" />
+
+                <div class="text-center">
+                    <h5 class="fw-bold">Resumen del Pedido</h5>
+                    <p class="fs-5 text-dark">Total a pagar: <span class="text-success">S/. @Model.TotalPedido.ToString("F2")</span></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Bootstrap validation
+        (() => {
+            'use strict';
+            const forms = document.querySelectorAll('.needs-validation');
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();
+    </script>
+}

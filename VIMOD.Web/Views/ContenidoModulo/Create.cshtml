@@ -1,0 +1,78 @@
+﻿@model VIMOD.Domain.Models.ContenidoModulo
+@{
+    ViewData["Title"] = "Crear Contenido";
+}
+
+<div class="card shadow-lg">
+    <div class="card-header bg-success text-white">
+        <h3 class="mb-0"><i class="fas fa-file-alt me-2"></i>@ViewData["Title"]</h3>
+    </div>
+    <div class="card-body">
+        <form asp-action="Create" class="needs-validation" novalidate>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input asp-for="Titulo" class="form-control" placeholder="Título" required />
+                        <label asp-for="Titulo"></label>
+                        <span asp-validation-for="Titulo" class="invalid-feedback"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <select asp-for="Tipo" class="form-select" required>
+                            <option value="">Seleccionar tipo...</option>
+                            <option value="Video">Video</option>
+                            <option value="Documento">Documento</option>
+                            <option value="Enlace">Enlace</option>
+                        </select>
+                        <label asp-for="Tipo"></label>
+                        <span asp-validation-for="Tipo" class="invalid-feedback"></span>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-floating">
+                        <input asp-for="URLContenido" class="form-control" placeholder="URL" required />
+                        <label asp-for="URLContenido"></label>
+                        <span asp-validation-for="URLContenido" class="invalid-feedback"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input asp-for="Orden" type="number" class="form-control" placeholder="Orden" required />
+                        <label asp-for="Orden"></label>
+                        <span asp-validation-for="Orden" class="invalid-feedback"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <select asp-for="IdModulo" class="form-select" asp-items="ViewBag.IdModulo" required>
+                            <option value="">Seleccionar módulo...</option>
+                        </select>
+                        <label for="IdModulo">Módulo</label>
+                        <span asp-validation-for="IdModulo" class="invalid-feedback"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-4 d-flex justify-content-between">
+                <button type="submit" class="btn btn-success px-4">
+                    <i class="fas fa-save me-2"></i>Crear
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="fas fa-arrow-left me-2"></i>Cancelar
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,122 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+@using VIMOD.Domain.Models
+@inject SignInManager<Usuario> SignInManager
+@inject UserManager<Usuario> UserManager
+@model IEnumerable<VIMOD.Domain.Models.ContenidoEducativo>
+
+@{
+    ViewData["Title"] = "Listado de Contenidos Educativos";
+    var esAdmin = User.IsInRole("Administrador");
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0">Lista de Recursos</h2>
+
+        @* Solo mostrar si es Administrador *@
+        @if (esAdmin)
+        {
+            <a asp-action="Create" class="btn btn-dark rounded-pill text-white">
+                <i class="bi bi-plus-circle me-2"></i>Agregar nuevo contenido
+            </a>
+        }
+    </div>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            string videoId = null;
+
+            if (!string.IsNullOrWhiteSpace(item.UrlContenido))
+            {
+                if (item.UrlContenido.Contains("youtube.com/watch?v="))
+                {
+                    videoId = item.UrlContenido.Split("v=")[1].Split('&')[0];
+                }
+                else if (item.UrlContenido.Contains("youtu.be/"))
+                {
+                    videoId = item.UrlContenido.Split("youtu.be/")[1].Split('?')[0];
+                }
+            }
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm rounded">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Titulo</h5>
+                        <p class="card-text">@item.Descripcion</p>
+
+                        @if (!string.IsNullOrEmpty(videoId))
+                        {
+                            <div class="video-thumbnail mb-3">
+                                <a href="@item.UrlContenido" target="_blank">
+                                    <img src="https://img.youtube.com/vi/@videoId/0.jpg" class="img-fluid rounded" alt="Miniatura de Video">
+                                </a>
+                            </div>
+                        }
+
+                        @if (!string.IsNullOrWhiteSpace(item.UrlContenido))
+                        {
+                            <a href="@item.UrlContenido" target="_blank" class="btn btn-primary btn-sm text-white mx-auto d-block">
+                                Ver recurso
+                            </a>
+                        }
+                    </div>
+
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <small class="text-muted">@item.FechaPublicacion.ToShortDateString()</small>
+                        <span class="badge bg-@(item.EsActivo ? "success" : "secondary")">
+                            @(item.EsActivo ? "Activo" : "Inactivo")
+                        </span>
+                    </div>
+
+                    @* Solo mostrar opciones si es Administrador *@
+                    @if (esAdmin)
+                    {
+                        <div class="d-flex justify-content-between px-2 pb-2">
+                            <a asp-action="Details" asp-route-id="@item.ContenidoId" class="btn btn-info btn-sm text-white mx-1">👁️ Detalles</a>
+                            <a asp-action="Edit" asp-route-id="@item.ContenidoId" class="btn btn-warning btn-sm text-white mx-1">✏️ Editar</a>
+                            <a asp-action="Delete" asp-route-id="@item.ContenidoId" class="btn btn-danger btn-sm text-white mx-1">🗑️ Eliminar</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .video-thumbnail {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+        background-color: #000;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .video-thumbnail img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-sm {
+        padding: 8px 15px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .btn-dark {
+        background-color: #333;
+    }
+</style>

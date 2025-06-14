@@ -1,0 +1,33 @@
+﻿@model VIMOD.Domain.Models.ContenidoEducativo
+
+@{
+    ViewData["Title"] = "Eliminar Contenido";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>¿Está seguro que desea eliminar el siguiente contenido?</h4>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">Título</dt>
+            <dd class="col-sm-8">@Model.Titulo</dd>
+
+            <dt class="col-sm-4">Descripción</dt>
+            <dd class="col-sm-8">@Model.Descripcion</dd>
+
+            <dt class="col-sm-4">Curso</dt>
+            <dd class="col-sm-8">@Model.Curso?.Nombre</dd>
+
+            <dt class="col-sm-4">Activo</dt>
+            <dd class="col-sm-8">@(Model.EsActivo ? "Sí" : "No")</dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="ContenidoId" />
+            <button type="submit" class="btn btn-danger">Eliminar</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+﻿@model VIMOD.Domain.Models.ContenidoEducativo
+
+@{
+    ViewData["Title"] = "Agregar Contenido Educativo";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Titulo">Título</label>
+                <input asp-for="Titulo" class="form-control" />
+                <span asp-validation-for="Titulo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Descripcion">Descripción</label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="UrlContenido">Enlace del Contenido</label>
+                <input asp-for="UrlContenido" class="form-control" />
+                <span asp-validation-for="UrlContenido" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CursoId">Curso Asociado</label>
+                <select asp-for="CursoId" class="form-control" asp-items="ViewBag.CursoId"></select>
+                <span asp-validation-for="CursoId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FechaPublicacion">Fecha de Publicación</label>
+                <input asp-for="FechaPublicacion" type="date" class="form-control" />
+                <span asp-validation-for="FechaPublicacion" class="text-danger"></span>
+            </div>
+
+            <div class="form-check">
+                <input asp-for="EsActivo" class="form-check-input" />
+                <label class="form-check-label">¿Está Activo?</label>
+            </div>
+
+            <br />
+            <button type="submit" class="btn btn-success">Guardar</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

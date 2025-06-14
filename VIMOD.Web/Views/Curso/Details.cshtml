@@ -1,0 +1,219 @@
+﻿@model VIMOD.Domain.Models.Curso
+@{
+    ViewData["Title"] = "Detalles del Curso";
+}
+
+<div class="card shadow-lg">
+    <div class="card-header bg-primary text-white">
+        <h2 class="mb-0">
+            <i class="fas fa-book-open me-2"></i>@Model.Nombre
+        </h2>
+    </div>
+
+    <div class="card-body">
+        <!-- Sección de información básica del curso -->
+        <div class="row mb-5">
+            <div class="col-md-8">
+                <dl class="row text-dark">
+                    <dt class="col-sm-4"><i class="fas fa-align-left me-2"></i>Descripción</dt>
+                    <dd class="col-sm-8">@Model.Descripcion</dd>
+
+                    <dt class="col-sm-4"><i class="fas fa-dollar-sign me-2"></i>Precio</dt>
+                    <dd class="col-sm-8">@Model.Precio.ToString("C")</dd>
+
+                    <dt class="col-sm-4"><i class="fas fa-tag me-2"></i>Descuento</dt>
+                    <dd class="col-sm-8">@Model.PrecioDescuento.ToString("C")</dd>
+
+                    <dt class="col-sm-4"><i class="fas fa-user-tie me-2"></i>Docente</dt>
+                    <dd class="col-sm-8">@Model.DocenteAsignado</dd>
+
+                    <dt class="col-sm-4"><i class="fas fa-layer-group me-2"></i>Categoría</dt>
+                    <dd class="col-sm-8">@Model.Categoria.Descripcion</dd>
+                </dl>
+            </div>
+            <div class="col-md-4 text-center">
+                @if (!string.IsNullOrEmpty(Model.URLImagen))
+                {
+                    <img src="@Model.URLImagen" class="img-fluid rounded shadow"
+                         alt="Imagen del curso" style="max-height: 200px;">
+                }
+                <div class="mt-3">
+                    <a asp-action="Edit" asp-route-id="@Model.IdCurso"
+                       class="btn btn-warning btn-sm">
+                        <i class="fas fa-edit me-2"></i>Editar Curso
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección de Módulos y Contenido -->
+        <div class="accordion" id="modulosAccordion">
+            <div class="d-flex justify-content-between mb-3">
+                <h4><i class="fas fa-list-ol me-2"></i>Módulos del Curso</h4>
+                <a asp-controller="ModuloCurso" asp-action="Create"
+                   asp-route-cursoId="@Model.IdCurso"
+                   class="btn btn-success btn-sm">
+                    <i class="fas fa-plus-circle me-2"></i>Agregar Módulo
+                </a>
+            </div>
+
+            @foreach (var modulo in Model.Modulos.OrderBy(m => m.Orden))
+            {
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="heading@(modulo.IdModulo)">
+                        <button class="accordion-button" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapse@(modulo.IdModulo)"
+                                aria-expanded="true"
+                                aria-controls="collapse@(modulo.IdModulo)">
+                            <span class="badge bg-secondary me-2">Módulo @modulo.Orden</span>
+                            @modulo.Titulo
+                        </button>
+                    </h3>
+
+                    <div id="collapse@(modulo.IdModulo)"
+                         class="accordion-collapse collapse show"
+                         aria-labelledby="heading@(modulo.IdModulo)"
+                         data-bs-parent="#modulosAccordion">
+                        <div class="accordion-body">
+                            <div class="d-flex justify-content-between mb-3">
+                                <p class="text-muted">@modulo.Descripcion</p>
+                                <div>
+                                    <a asp-controller="ModuloCurso" asp-action="Edit"
+                                       asp-route-id="@modulo.IdModulo"
+                                       class="btn btn-sm btn-outline-warning">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                    <a asp-controller="ContenidoModulo" asp-action="Create"
+                                       asp-route-moduloId="@modulo.IdModulo"
+                                       class="btn btn-sm btn-outline-primary">
+                                        <i class="fas fa-plus"></i> Contenido
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                @foreach (var contenido in modulo.Contenidos.OrderBy(c => c.Orden))
+                                {
+                                    <div class="col">
+                                        <div class="card h-100 shadow-sm">
+                                            <div class="card-header">
+                                                <div class="d-flex justify-content-between">
+                                                    <span class="badge bg-info">@contenido.Tipo</span>
+                                                    <small class="text-muted">Orden: @contenido.Orden</small>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">@contenido.Titulo</h5>
+
+                                                @if (!string.IsNullOrEmpty(contenido.URLContenido))
+                                                {
+                                                    <div class="mb-3">
+                                                        @if (contenido.Tipo == "Video")
+                                                        {
+                                                            var isYoutube = contenido.URLContenido.Contains("youtube.com") || contenido.URLContenido.Contains("youtu.be");
+                                                            var videoId = "";
+                                                            var embedUrl = contenido.URLContenido;
+
+                                                            if (isYoutube)
+                                                            {
+                                                                // Convertir URL de YouTube a formato embed
+                                                                if (contenido.URLContenido.Contains("watch?v="))
+                                                                {
+                                                                    videoId = contenido.URLContenido.Split(new[] { "watch?v=" }, StringSplitOptions.RemoveEmptyEntries)[1];
+                                                                }
+                                                                else if (contenido.URLContenido.Contains("youtu.be/"))
+                                                                {
+                                                                    videoId = contenido.URLContenido.Split(new[] { "youtu.be/" }, StringSplitOptions.RemoveEmptyEntries)[1];
+                                                                }
+
+                                                                // Limpiar parámetros adicionales
+                                                                if (videoId.Contains("&"))
+                                                                {
+                                                                    videoId = videoId.Split('&')[0];
+                                                                }
+
+                                                                embedUrl = $"https://www.youtube.com/embed/{videoId}";
+                                                            }
+
+                                                            <div class="ratio ratio-16x9">
+                                                                <iframe src="@embedUrl"
+                                                                        allowfullscreen
+                                                                        class="rounded"
+                                                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                                        title="Video del curso: @contenido.Titulo"></iframe>
+                                                            </div>
+                                                        }
+                                                        else
+                                                        {
+                                                            <a href="@contenido.URLContenido"
+                                                               target="_blank"
+                                                               class="btn btn-outline-primary w-100">
+                                                                <i class="fas fa-external-link-alt me-2"></i>
+                                                                Ver contenido
+                                                            </a>
+                                                        }
+                                                    </div>
+                                                }
+                                            </div>
+                                            <div class="card-footer bg-transparent">
+                                                <div class="d-flex justify-content-end gap-2">
+                                                    <a asp-controller="ContenidoModulo"
+                                                       asp-action="Edit"
+                                                       asp-route-id="@contenido.IdContenido"
+                                                       class="btn btn-sm btn-outline-warning">
+                                                        <i class="fas fa-edit"></i>
+                                                    </a>
+                                                    <a asp-controller="ContenidoModulo"
+                                                       asp-action="Delete"
+                                                       asp-route-id="@contenido.IdContenido"
+                                                       class="btn btn-sm btn-outline-danger">
+                                                        <i class="fas fa-trash"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="card-footer">
+        <a asp-action="Index" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left me-2"></i>Volver al listado
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Forzar HTTPS en todos los iframes
+            document.querySelectorAll('iframe').forEach(iframe => {
+                iframe.src = iframe.src.replace('http:', 'https:');
+            });
+
+            // Manejar errores de carga de video
+            document.querySelectorAll('iframe').forEach(iframe => {
+                iframe.addEventListener('error', function() {
+                    this.parentElement.innerHTML = `
+                        <div class="alert alert-warning p-2">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            No se pudo cargar el video. Verifica:
+                            <ul class="mb-0 mt-1">
+                                <li>La URL del video</li>
+                                <li>Tu conexión a internet</li>
+                                <li>Si el video existe</li>
+                            </ul>
+                        </div>
+                    `;
+                });
+            });
+        });
+    </script>
+}

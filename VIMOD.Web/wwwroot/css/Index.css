@@ -1,0 +1,124 @@
+﻿.bg-soft-light {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bg-primary-soft {
+    background: rgba(13, 110, 253, 0.1);
+}
+
+.bg-success-soft {
+    background: rgba(25, 135, 84, 0.1);
+}
+
+.bg-warning-soft {
+    background: rgba(255, 193, 7, 0.1);
+}
+
+.btn-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Primer contenedor de HOME -- */
+
+.card {
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.badge {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+/* Segundo contenedor para la venta de cursos -- */
+
+h1 u {
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+
+.btn-dark {
+    transition: all 0.3s ease;
+    border: 2px solid #000;
+    letter-spacing: 1px;
+}
+
+    .btn-dark:hover {
+        background-color: transparent !important;
+        color: #000 !important;
+        transform: scale(1.05);
+    }
+
+.certificaciones {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+body {
+    background-color: white !important;
+}
+
+.lead strong {
+    letter-spacing: 0.05em;
+}
+
+/* Tercer contenedor para la venta de cursos -- */
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .icon-wrapper {
+    transform: scale(1.1);
+}
+
+.bg-primary-soft {
+    background: rgba(13, 110, 253, 0.1);
+}
+
+.bg-danger-soft {
+    background: rgba(220, 53, 69, 0.1);
+}
+
+.bg-warning-soft {
+    background: rgba(255, 193, 7, 0.1);
+}
+
+.bg-success-soft {
+    background: rgba(25, 135, 84, 0.1);
+}
+
+.shadow-hover {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.shadow-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    border-bottom: 3px solid #0d6efd;
+}
+
