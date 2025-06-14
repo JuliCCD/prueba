@@ -5180,11 +5180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Repositories\\VIMOD.Repositories.csproj",
+      "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\VIMOD.Repositories.csproj",
       "projectName": "VIMOD.Repositories",
-      "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Repositories\\VIMOD.Repositories.csproj",
+      "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\VIMOD.Repositories.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Repositories\\obj\\",
+      "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5206,11 +5206,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Domain\\VIMOD.Domain.csproj": {
-              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Domain\\VIMOD.Domain.csproj"
+            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj": {
+              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj"
             },
-            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
-              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj"
+            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
+              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj"
             }
           }
         }

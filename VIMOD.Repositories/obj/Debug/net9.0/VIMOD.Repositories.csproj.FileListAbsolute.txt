@@ -176,3 +176,23 @@ D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Repositories\obj\Debug\net9.0\refi
 D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Repositories.pdb
 D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Repositories.genruntimeconfig.cache
 D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Repositories\obj\Debug\net9.0\ref\VIMOD.Repositories.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\bin\Debug\net9.0\VIMOD.Repositories.deps.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\bin\Debug\net9.0\VIMOD.Repositories.runtimeconfig.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\bin\Debug\net9.0\VIMOD.Repositories.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\bin\Debug\net9.0\VIMOD.Repositories.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\bin\Debug\net9.0\VIMOD.Domain.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\bin\Debug\net9.0\VIMOD.Infraestructure.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\bin\Debug\net9.0\VIMOD.Domain.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\bin\Debug\net9.0\VIMOD.Infraestructure.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Repositories.csproj.AssemblyReference.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Repositories.AssemblyInfoInputs.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Repositories.AssemblyInfo.cs
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Repositories.csproj.CoreCompileInputs.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Repositories.sourcelink.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Re.07FA3D5B.Up2Date
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Repositories.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\refint\VIMOD.Repositories.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Repositories.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\VIMOD.Repositories.genruntimeconfig.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Repositories\obj\Debug\net9.0\ref\VIMOD.Repositories.dll

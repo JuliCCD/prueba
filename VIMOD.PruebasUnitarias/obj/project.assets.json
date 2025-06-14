@@ -12084,11 +12084,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj",
+      "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj",
       "projectName": "VIMOD.PruebasUnitarias",
-      "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj",
+      "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.PruebasUnitarias\\obj\\",
+      "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.PruebasUnitarias\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -12110,20 +12110,20 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Domain\\VIMOD.Domain.csproj": {
-              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Domain\\VIMOD.Domain.csproj"
+            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj": {
+              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj"
             },
-            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
-              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj"
+            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
+              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj"
             },
-            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Repositories\\VIMOD.Repositories.csproj": {
-              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Repositories\\VIMOD.Repositories.csproj"
+            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\VIMOD.Repositories.csproj": {
+              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\VIMOD.Repositories.csproj"
             },
-            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Utilities\\VIMOD.Utilities.csproj": {
-              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Utilities\\VIMOD.Utilities.csproj"
+            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Utilities\\VIMOD.Utilities.csproj": {
+              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Utilities\\VIMOD.Utilities.csproj"
             },
-            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Web\\VIMOD.Web.csproj": {
-              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Web\\VIMOD.Web.csproj"
+            "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Web\\VIMOD.Web.csproj": {
+              "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Web\\VIMOD.Web.csproj"
             }
           }
         }

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VIMOD.Utilities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95fee9c45d560e4381a5eff5332c9c1b4ff3959a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5bd866fdacbf16f72e6c5e62158903c8b31c695")]
 [assembly: System.Reflection.AssemblyProductAttribute("VIMOD.Utilities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VIMOD.Utilities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

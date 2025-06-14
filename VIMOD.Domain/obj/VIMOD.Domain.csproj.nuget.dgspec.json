@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Domain\\VIMOD.Domain.csproj": {}
+    "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj": {}
   },
   "projects": {
-    "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Domain\\VIMOD.Domain.csproj": {
+    "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Domain\\VIMOD.Domain.csproj",
+        "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj",
         "projectName": "VIMOD.Domain",
-        "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Domain\\VIMOD.Domain.csproj",
+        "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Web\\VIMOD.Domain\\obj\\",
+        "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
