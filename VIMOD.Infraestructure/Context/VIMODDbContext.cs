@@ -7,7 +7,7 @@ using VIMOD.Domain.Models;
 
 namespace VIMOD.Infrastructure.Context
 {
-    public class VIMODDbContext : IdentityDbContext<Usuario, IdentityRole, string>
+    public class VimodDbContext : IdentityDbContext<Usuario, IdentityRole, string>
     {
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Curso> Cursos { get; set; }
@@ -21,7 +21,7 @@ namespace VIMOD.Infrastructure.Context
         public DbSet<Certificado> Certificados { get; set; }
         public DbSet<ContenidoEducativo> ContenidosEducativos { get; set; }
 
-        public VIMODDbContext(DbContextOptions<VIMODDbContext> options) : base(options) { }
+        public VimodDbContext(DbContextOptions<VimodDbContext> options) : base(options) { }
 
 
         protected override void OnModelCreating(ModelBuilder builder)

@@ -1,65 +1,65 @@
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery\dist\jquery.min.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\css\Home.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery-validation\LICENSE.md
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery\dist\jquery.min.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\js\JS_1.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\css\Index.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\css\Nosotros.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery\dist\jquery.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\favicon.ico
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery-validation\dist\additional-methods.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\css\header_footer.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery\dist\jquery.min.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\css\Home.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery-validation\LICENSE.md
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery\dist\jquery.min.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\js\JS_1.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\css\Index.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\css\Nosotros.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery\dist\jquery.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\favicon.ico
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\css\header_footer.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\jquery\LICENSE.txt
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 wwwroot\css\header_footer.css
 wwwroot\css\Home.css
 wwwroot\css\Index.css

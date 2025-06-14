@@ -114,3 +114,21 @@ C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOF
 C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.Infraestructure.dll
 C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Infraestructure\obj\Debug\net9.0\refint\VIMOD.Infraestructure.dll
 C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.Infraestructure.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\bin\Debug\net9.0\VIMOD.Infraestructure.deps.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\bin\Debug\net9.0\VIMOD.Infraestructure.runtimeconfig.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\bin\Debug\net9.0\VIMOD.Infraestructure.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\bin\Debug\net9.0\VIMOD.Infraestructure.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\bin\Debug\net9.0\VIMOD.Domain.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\bin\Debug\net9.0\VIMOD.Domain.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.Infraestructure.csproj.AssemblyReference.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.Infraestructure.AssemblyInfoInputs.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.Infraestructure.AssemblyInfo.cs
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.Infraestructure.csproj.CoreCompileInputs.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.Infraestructure.sourcelink.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.In.A32337F7.Up2Date
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.Infraestructure.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\refint\VIMOD.Infraestructure.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.Infraestructure.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\VIMOD.Infraestructure.genruntimeconfig.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Infraestructure\obj\Debug\net9.0\ref\VIMOD.Infraestructure.dll

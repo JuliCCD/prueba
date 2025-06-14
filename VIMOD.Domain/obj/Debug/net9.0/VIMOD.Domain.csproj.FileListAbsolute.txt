@@ -116,3 +116,18 @@ C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOF
 C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Domain\obj\Debug\net9.0\VIMOD.Domain.pdb
 C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Domain\obj\Debug\net9.0\VIMOD.Domain.genruntimeconfig.cache
 C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Domain\obj\Debug\net9.0\ref\VIMOD.Domain.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\bin\Debug\net9.0\VIMOD.Domain.deps.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\bin\Debug\net9.0\VIMOD.Domain.runtimeconfig.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\bin\Debug\net9.0\VIMOD.Domain.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\bin\Debug\net9.0\VIMOD.Domain.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\obj\Debug\net9.0\VIMOD.Domain.csproj.AssemblyReference.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\obj\Debug\net9.0\VIMOD.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\obj\Debug\net9.0\VIMOD.Domain.AssemblyInfoInputs.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\obj\Debug\net9.0\VIMOD.Domain.AssemblyInfo.cs
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\obj\Debug\net9.0\VIMOD.Domain.csproj.CoreCompileInputs.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\obj\Debug\net9.0\VIMOD.Domain.sourcelink.json
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\obj\Debug\net9.0\VIMOD.Domain.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\obj\Debug\net9.0\refint\VIMOD.Domain.dll
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\obj\Debug\net9.0\VIMOD.Domain.pdb
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\obj\Debug\net9.0\VIMOD.Domain.genruntimeconfig.cache
+D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Domain\obj\Debug\net9.0\ref\VIMOD.Domain.dll

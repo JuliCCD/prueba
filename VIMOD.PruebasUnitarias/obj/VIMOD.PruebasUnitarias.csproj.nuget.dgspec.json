@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj": {}
+    "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj": {}
   },
   "projects": {
-    "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\VIMOD.Domain.csproj": {
+    "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\VIMOD.Domain.csproj",
+        "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj",
         "projectName": "VIMOD.Domain",
-        "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\VIMOD.Domain.csproj",
-        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\obj\\",
+        "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,9 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -96,24 +96,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
+    "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj",
+        "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj",
         "projectName": "VIMOD.Infraestructure",
-        "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Infraestructure\\obj\\",
+        "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -129,8 +129,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\VIMOD.Domain.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\VIMOD.Domain.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj"
               }
             }
           }
@@ -143,9 +143,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -196,24 +196,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj": {
+    "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj",
+        "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj",
         "projectName": "VIMOD.PruebasUnitarias",
-        "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj",
-        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.PruebasUnitarias\\obj\\",
+        "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.PruebasUnitarias\\VIMOD.PruebasUnitarias.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.PruebasUnitarias\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -229,20 +229,20 @@
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\VIMOD.Domain.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\VIMOD.Domain.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj"
               },
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj"
               },
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Repositories\\VIMOD.Repositories.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Repositories\\VIMOD.Repositories.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\VIMOD.Repositories.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\VIMOD.Repositories.csproj"
               },
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Utilities\\VIMOD.Utilities.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Utilities\\VIMOD.Utilities.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Utilities\\VIMOD.Utilities.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Utilities\\VIMOD.Utilities.csproj"
               },
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\VIMOD.Web.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\VIMOD.Web.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Web\\VIMOD.Web.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Web\\VIMOD.Web.csproj"
               }
             }
           }
@@ -255,9 +255,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0-windows7.0": {
@@ -300,24 +300,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Repositories\\VIMOD.Repositories.csproj": {
+    "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\VIMOD.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Repositories\\VIMOD.Repositories.csproj",
+        "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\VIMOD.Repositories.csproj",
         "projectName": "VIMOD.Repositories",
-        "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Repositories\\VIMOD.Repositories.csproj",
-        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Repositories\\obj\\",
+        "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\VIMOD.Repositories.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -333,11 +333,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\VIMOD.Domain.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\VIMOD.Domain.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj"
               },
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj"
               }
             }
           }
@@ -350,9 +350,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -403,24 +403,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Utilities\\VIMOD.Utilities.csproj": {
+    "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Utilities\\VIMOD.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Utilities\\VIMOD.Utilities.csproj",
+        "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Utilities\\VIMOD.Utilities.csproj",
         "projectName": "VIMOD.Utilities",
-        "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Utilities\\VIMOD.Utilities.csproj",
-        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Utilities\\obj\\",
+        "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Utilities\\VIMOD.Utilities.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -446,9 +446,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -499,24 +499,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\VIMOD.Web.csproj": {
+    "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Web\\VIMOD.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\VIMOD.Web.csproj",
+        "projectUniqueName": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Web\\VIMOD.Web.csproj",
         "projectName": "VIMOD.Web",
-        "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\VIMOD.Web.csproj",
-        "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Web\\obj\\",
+        "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Web\\VIMOD.Web.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\benja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -532,17 +532,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\VIMOD.Domain.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Domain\\VIMOD.Domain.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Domain\\VIMOD.Domain.csproj"
               },
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Infraestructure\\VIMOD.Infraestructure.csproj"
               },
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Repositories\\VIMOD.Repositories.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Repositories\\VIMOD.Repositories.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\VIMOD.Repositories.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Repositories\\VIMOD.Repositories.csproj"
               },
-              "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Utilities\\VIMOD.Utilities.csproj": {
-                "projectPath": "C:\\Users\\benja\\Downloads\\CalidadYPruebasProyecto-master\\CalidadYPruebasProyecto-master\\VIMOD.Utilities\\VIMOD.Utilities.csproj"
+              "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Utilities\\VIMOD.Utilities.csproj": {
+                "projectPath": "D:\\VIDA UNIVERSITARIA\\Calidad\\VIMOD_Webpruebas - copia\\VIMOD.Utilities\\VIMOD.Utilities.csproj"
               }
             }
           }
@@ -555,9 +555,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -627,7 +627,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

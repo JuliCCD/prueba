@@ -1,4 +1,4 @@
-﻿.bg-soft-light {
+﻿    .bg-soft-light {
     background: rgba(255, 255, 255, 0.1);
 }
 
@@ -21,14 +21,6 @@
 
 .bg-warning-soft {
     background: rgba(255, 193, 7, 0.1);
-}
-
-.btn-icon {
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Primer contenedor de HOME -- */
