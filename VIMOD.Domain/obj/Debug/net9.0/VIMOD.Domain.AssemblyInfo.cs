@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VIMOD.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ece42557d733fc21b6b2494a41f73e3d9abf1d23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9f6777bc560d16a7c9223809b4a38ed09d48632")]
 [assembly: System.Reflection.AssemblyProductAttribute("VIMOD.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VIMOD.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

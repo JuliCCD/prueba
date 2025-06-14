@@ -116,33 +116,3 @@ C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOF
 C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
 C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
 C:\Users\benja\OneDrive\Documentos\UPN\CICLO 2025 - UPN\CALIDAD Y PRUEBAS DE SOFTWARE\SEMANA 12\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.deps.json
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.runtimeconfig.json
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.dll
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.pdb
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.AssemblyReference.cache
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfoInputs.cache
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfo.cs
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.CoreCompileInputs.cache
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.sourcelink.json
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.dll
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\refint\VIMOD.Utilities.dll
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Web\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.deps.json
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.runtimeconfig.json
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.dll
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\bin\Debug\net9.0\VIMOD.Utilities.pdb
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.AssemblyReference.cache
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.GeneratedMSBuildEditorConfig.editorconfig
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfoInputs.cache
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.AssemblyInfo.cs
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.csproj.CoreCompileInputs.cache
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.sourcelink.json
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.dll
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\obj\Debug\net9.0\refint\VIMOD.Utilities.dll
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.pdb
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\obj\Debug\net9.0\VIMOD.Utilities.genruntimeconfig.cache
-D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Utilities\obj\Debug\net9.0\ref\VIMOD.Utilities.dll

@@ -16,7 +16,7 @@ namespace VIMOD.Infraestructure.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            throw new NotSupportedException("Esta migración no soporta reversión porque no hay operaciones que revertir.");
+
         }
     }
 }

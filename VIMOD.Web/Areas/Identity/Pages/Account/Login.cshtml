@@ -33,24 +33,24 @@
                     <div asp-validation-summary="ModelOnly" class="alert alert-danger mb-4"></div>
 
                     <div class="form-floating mb-4">
-                        <input id="Input_Email" name="Input.Email" class="form-control"
+                        <input asp-for="Input.Email" class="form-control"
                                style="border-radius: 12px; height: 56px;"
                                placeholder="correo@ejemplo.com" />
-                        <label for="Input_Email" class="text-dark">Correo electrónico</label>
+                        <label asp-for="Input.Email" class="text-dark">Correo electrónico</label>
                         <span asp-validation-for="Input.Email" class="text-danger small"></span>
                     </div>
 
                     <div class="form-floating mb-4">
-                        <input id="Input.Password" class="form-control"
+                        <input asp-for="Input.Password" class="form-control"
                                style="border-radius: 12px; height: 56px;"
                                placeholder="contraseña" />
-                        <label for="Input.Password" class="text-dark">Contraseña</label>
+                        <label asp-for="Input.Password" class="text-dark">Contraseña</label>
                         <span asp-validation-for="Input.Password" class="text-danger small"></span>
                     </div>
 
                     <div class="d-flex justify-content-between align-items-center mb-4">
                         <div class="form-check">
-                            <input id="form-check-input" type="checkbox"
+                            <input class="form-check-input" type="checkbox"
                                    style="width: 1.2em; height: 1.2em;"
                                    asp-for="Input.RememberMe" />
                             <label class="form-check-label text-dark" asp-for="Input.RememberMe">

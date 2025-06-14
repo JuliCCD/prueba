@@ -17,285 +17,285 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VIMOD.Web
 build_property.RootNamespace = VIMOD.Web
-build_property.ProjectDir = D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web\
+build_property.ProjectDir = C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\VIDA UNIVERSITARIA\Calidad\VIMOD_Webpruebas - copia\VIMOD.Web
+build_property.MSBuildProjectDirectory = C:\Users\benja\Downloads\CalidadYPruebasProyecto-master\CalidadYPruebasProyecto-master\VIMOD.Web
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Account/Login.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Account/Register.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Admin/EditarUsuario.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Admin/EditarUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyVXN1YXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Admin/ListaUsuarios.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Admin/ListaUsuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTGlzdGFVc3Vhcmlvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Carousel/Create.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Carousel/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyb3VzZWxcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Carousel/Delete.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Carousel/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyb3VzZWxcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Carousel/Details.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Carousel/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyb3VzZWxcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Carousel/Edit.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Carousel/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyb3VzZWxcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Carousel/Index.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Carousel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyb3VzZWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Categoria/Create.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Categoria/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Categoria/Delete.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Categoria/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Categoria/Details.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Categoria/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Categoria/Edit.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Categoria/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Categoria/Index.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Categoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Certificado/Create.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Certificado/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhZG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Certificado/Delete.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Certificado/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhZG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Certificado/Details.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Certificado/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhZG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Certificado/Edit.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Certificado/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhZG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Certificado/Index.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Certificado/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhZG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Certificado/Validar.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Certificado/Validar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VydGlmaWNhZG9cVmFsaWRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ContenidoEducativo/Create.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ContenidoEducativo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVuaWRvRWR1Y2F0aXZvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ContenidoEducativo/Delete.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ContenidoEducativo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVuaWRvRWR1Y2F0aXZvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ContenidoEducativo/Details.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ContenidoEducativo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVuaWRvRWR1Y2F0aXZvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ContenidoEducativo/Edit.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ContenidoEducativo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVuaWRvRWR1Y2F0aXZvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ContenidoEducativo/Index.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ContenidoEducativo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVuaWRvRWR1Y2F0aXZvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ContenidoModulo/Create.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ContenidoModulo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVuaWRvTW9kdWxvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ContenidoModulo/Delete.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ContenidoModulo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVuaWRvTW9kdWxvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ContenidoModulo/Details.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ContenidoModulo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVuaWRvTW9kdWxvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ContenidoModulo/Edit.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ContenidoModulo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVuaWRvTW9kdWxvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ContenidoModulo/Index.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ContenidoModulo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVuaWRvTW9kdWxvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Curso/Buscar.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Curso/Buscar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cQnVzY2FyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Curso/Create.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Curso/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Curso/Delete.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Curso/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Curso/Details.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Curso/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Curso/Edit.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Curso/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Curso/Index.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Curso/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Curso/MisCursos.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Curso/MisCursos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cTWlzQ3Vyc29zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Home/Contacto.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Home/Contacto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Home/FAQ.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Home/FAQ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGQVEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Home/Index.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Home/Privacy.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ModuloCurso/Create.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ModuloCurso/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxvQ3Vyc29cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ModuloCurso/Delete.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ModuloCurso/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxvQ3Vyc29cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ModuloCurso/Details.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ModuloCurso/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxvQ3Vyc29cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ModuloCurso/Edit.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ModuloCurso/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxvQ3Vyc29cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/ModuloCurso/Index.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/ModuloCurso/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kdWxvQ3Vyc29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Shared/Error.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Tienda/ConfirmacionPago.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Tienda/ConfirmacionPago.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGllbmRhXENvbmZpcm1hY2lvblBhZ28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Tienda/CursosDisponibles.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Tienda/CursosDisponibles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGllbmRhXEN1cnNvc0Rpc3BvbmlibGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Tienda/FinalizarPedido.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Tienda/FinalizarPedido.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGllbmRhXEZpbmFsaXphclBlZGlkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Tienda/PagarCurso.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Tienda/PagarCurso.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGllbmRhXFBhZ2FyQ3Vyc28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Tienda/PagoYape.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Tienda/PagoYape.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGllbmRhXFBhZ29ZYXBlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/_ViewImports.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/_ViewStart.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIDA UNIVERSITARIA/Calidad/VIMOD_Webpruebas - copia/VIMOD.Web/Views/Shared/_Layout.cshtml]
+[C:/Users/benja/Downloads/CalidadYPruebasProyecto-master/CalidadYPruebasProyecto-master/VIMOD.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-82fljolqjz

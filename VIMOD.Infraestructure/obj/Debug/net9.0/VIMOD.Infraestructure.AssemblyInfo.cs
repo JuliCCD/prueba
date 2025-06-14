@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VIMOD.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7e3ca318c9d887d861fe24aaf5693ec7d939f14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9f6777bc560d16a7c9223809b4a38ed09d48632")]
 [assembly: System.Reflection.AssemblyProductAttribute("VIMOD.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VIMOD.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
