@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VIMOD.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ece42557d733fc21b6b2494a41f73e3d9abf1d23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7e3ca318c9d887d861fe24aaf5693ec7d939f14")]
 [assembly: System.Reflection.AssemblyProductAttribute("VIMOD.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VIMOD.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

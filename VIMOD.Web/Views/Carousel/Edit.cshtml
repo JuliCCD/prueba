@@ -36,7 +36,7 @@
             <label class="form-label fw-semibold">Imagen Actual</label><br />
             @if (!string.IsNullOrEmpty(Model.ImagenUrl))
             {
-                <img src="@Model.ImagenUrl" class="img-fluid rounded border mb-2" style="max-height: 200px;" />
+                <img src="@Model.ImagenUrl" class="img-fluid rounded border mb-2" style="max-height: 200px;" alt="@Model.Titulo" />
             }
             else
             {

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VIMOD.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b2fecdcdd15c75b819f40e0bbae10e8c148c87c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7e3ca318c9d887d861fe24aaf5693ec7d939f14")]
 [assembly: System.Reflection.AssemblyProductAttribute("VIMOD.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VIMOD.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
